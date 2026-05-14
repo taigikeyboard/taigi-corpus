@@ -1,0 +1,10 @@
+source_id: tsbp
+source_name: "台文通訊BONG報"
+source_url: "https://tsbp.tgb.org.tw"
+license: "unknown"
+license_notes: "需聯絡編輯部確認再次利用授權；目前先以研究用途收錄，正式發佈前須取得授權。"
+copyright_holder: "台文通訊BONG報編輯部 / 各文章原作者"
+contact: ""
+language: "nan-Hant-TW"
+default_script: "hanlo"
+description: "台文通訊BONG報部落格文章 (Blogger Atom feed)。文章以漢羅混寫為主，每期帶有「台文通訊BONG報N期」分類標籤。"

@@ -1,0 +1,10 @@
+source_id: chhoetaigi_kam
+source_name: "1913 甘字典 (廈門音新字典, via ChhoeTaigi)"
+source_url: "http://taigi.fhl.net/dick/"
+license: "CC-BY-NC-SA-3.0-TW"
+license_notes: "https://creativecommons.org/licenses/by-nc-sa/3.0/tw/  禁商業用途"
+copyright_holder: "William Campbell (甘為霖) / 林俊育（數位化）/ ChhoeTaigi"
+contact: "taibunkesimi@gmail.com"
+language: "nan-Hant-TW"
+default_script: "hanlo"
+description: "甘為霖 廈門音新字典 24,367 詞條。HanLo 頭詞 + 漢羅台文解說。原 GitHub: https://github.com/fhl-net/Kam-Ui-lim_1913_Kam-Ji-tian"

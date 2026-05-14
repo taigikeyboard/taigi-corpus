@@ -1,0 +1,10 @@
+source_id: moe_kautian
+source_name: "教育部臺灣台語常用詞辭典 (sutian.moe.edu.tw)"
+source_url: "https://sutian.moe.edu.tw/zh-hant/"
+license: "CC-BY-ND-3.0-TW"
+license_notes: "教育部官方版權聲明明示採用 https://creativecommons.org/licenses/by-nd/3.0/tw/ ，毋須另外申請授權。詳見 https://sutian.moe.edu.tw/zh-hant/piantsip/pankhuan-singbing/ 。⚠️ BY-ND 禁衍生；訓練模型 / 正式發佈前須評估法律風險。"
+copyright_holder: "中華民國教育部"
+contact: ""
+language: "nan-Hant-TW"
+default_script: "hanlo"
+description: "教育部臺灣台語常用詞辭典官方 ODS dump。每個 Document = 一個詞目 + 該詞目所有義項與例句（取自 ODS 之「詞目」「義項」「例句」三 sheet 之 join）。每次 build 重新下載 https://sutian.moe.edu.tw/media/senn/ods/kautian.ods 。"

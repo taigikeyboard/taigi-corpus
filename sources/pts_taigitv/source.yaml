@@ -1,0 +1,10 @@
+source_id: pts_taigitv
+source_name: "公視台語台 新詞辭典"
+source_url: "https://www.taigitv.org.tw/taigi-words"
+license: "CC-BY-4.0"
+license_notes: "https://creativecommons.org/licenses/by/4.0/  須註明出處：公視台語台。"
+copyright_holder: "公視台語台 (PTS Taigi)"
+contact: ""
+language: "nan-Hant-TW"
+default_script: "hanlo"
+description: "公視台語台「台語新詞」線上辭典快照，含華文翻譯與台羅拼音、分類標籤。直接 HTML scrape 自 taigitv.org.tw/taigi-words 分頁，原 scraper 邏輯來自 https://github.com/taigikeyboard/kemdict-data-pts-taigitv。`make refresh-pts_taigitv` 觸發完整重抓。"

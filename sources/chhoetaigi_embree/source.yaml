@@ -1,0 +1,10 @@
+source_id: chhoetaigi_embree
+source_name: "1973 Embree 台英辭典 (via ChhoeTaigi)"
+source_url: "https://github.com/Taiwanese-Corpus/Bernard-L.M.-Embree_1973_A-Dictionary-of-Southern-Min"
+license: "CC-BY-NC-SA-3.0-TW"
+license_notes: "https://creativecommons.org/licenses/by-nc-sa/3.0/tw/  禁商業用途"
+copyright_holder: "Bernard L. M. Embree / 楊允言（數位化）/ ChhoeTaigi"
+contact: "taibunkesimi@gmail.com"
+language: "nan-Hant-TW"
+default_script: "lo"
+description: "A Dictionary of Southern Min (Embree, 1973) 36,800 詞條。POJ 頭詞 + 華文/英文對譯。"

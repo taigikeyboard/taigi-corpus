@@ -1,0 +1,71 @@
+{
+  "id": {
+    "$t": "tag:blogger.com,1999:blog-4940056489303246146.post-964482666156349922"
+  },
+  "published": {
+    "$t": "2025-08-22T14:20:00.001+08:00"
+  },
+  "updated": {
+    "$t": "2025-09-19T14:38:32.310+08:00"
+  },
+  "title": {
+    "type": "text",
+    "$t": "(合作說明)教育部台語語料庫建置計畫"
+  },
+  "content": {
+    "type": "html",
+    "$t": "<div style=\"text-align: justify;\"><span style=\"font-size: medium;\">各位作者：</span></div><div style=\"text-align: justify;\"><span style=\"font-size: medium;\"><br /></span></div><div style=\"text-align: justify;\"><span style=\"font-size: medium;\">逐家好。</span></div><div style=\"text-align: justify;\"><span style=\"font-size: medium;\"><br /></span></div><div style=\"text-align: justify;\"><span style=\"font-size: medium;\">最近李江却台語文教基金會kap陽明交通大學智能所廖元甫教授ê台語語料庫建置計畫團隊，leh辦理教育部「教育部台語語料庫建置計畫」，除了收集台語文字佮口語語料、建立台語文語料庫，mā有發展台語文自動化處理ê AI工具。(台語文AI工具請參考： Speech Communication Lab. - Demo )</span></div><div style=\"text-align: justify;\"><span><a name='more'></a></span><span style=\"font-size: medium;\"><br /></span></div><div style=\"text-align: justify;\"><span style=\"font-size: medium;\">陽明交通大學語料庫計畫ê助理<b>黃悅綺</b>，會透過E-MAIL kap各位作者連絡《台文通訊BONG報》授權事宜，目前會先處理ê期數是：340期、343-364期，攏總二十三期收錄ê文章。</span></div><div style=\"text-align: justify;\"><br /></div><div style=\"text-align: justify;\"><span style=\"font-size: medium;\"><br /></span></div><div style=\"text-align: justify;\"><span style=\"font-size: medium;\">若有其他問題，歡迎聯絡李江却台語文教基金會，感謝。</span></div><div style=\"text-align: justify;\"><span style=\"font-size: medium;\">TEL：（02）2311-2199</span></div><div style=\"text-align: justify;\"><span style=\"font-size: medium;\">E-mail：bongpo1996@gmail.com</span></div>"
+  },
+  "link": [
+    {
+      "rel": "replies",
+      "type": "application/atom+xml",
+      "href": "https://tsbp.tgb.org.tw/feeds/964482666156349922/comments/default",
+      "title": "張貼留言"
+    },
+    {
+      "rel": "replies",
+      "type": "text/html",
+      "href": "https://tsbp.tgb.org.tw/2024/08/blog-post.html#comment-form",
+      "title": "0 個意見"
+    },
+    {
+      "rel": "edit",
+      "type": "application/atom+xml",
+      "href": "https://www.blogger.com/feeds/4940056489303246146/posts/default/964482666156349922"
+    },
+    {
+      "rel": "self",
+      "type": "application/atom+xml",
+      "href": "https://www.blogger.com/feeds/4940056489303246146/posts/default/964482666156349922"
+    },
+    {
+      "rel": "alternate",
+      "type": "text/html",
+      "href": "https://tsbp.tgb.org.tw/2024/08/blog-post.html",
+      "title": "(合作說明)教育部台語語料庫建置計畫"
+    }
+  ],
+  "author": [
+    {
+      "name": {
+        "$t": "李江却台語文教基金會"
+      },
+      "uri": {
+        "$t": "http://www.blogger.com/profile/04803411121195812908"
+      },
+      "email": {
+        "$t": "noreply@blogger.com"
+      },
+      "gd$image": {
+        "rel": "http://schemas.google.com/g/2005#thumbnail",
+        "width": "16",
+        "height": "16",
+        "src": "https://img1.blogblog.com/img/b16-rounded.gif"
+      }
+    }
+  ],
+  "thr$total": {
+    "$t": "0"
+  }
+}
