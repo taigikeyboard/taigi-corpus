@@ -5,10 +5,12 @@ heterogeneous sources (HTML / ODS / CSV / JSON / TAR) into normalized
 JSONL with full per-document metadata (source, license, copyright,
 URL, language, script, provenance).
 
-**348,477 documents** across 15 sources. Snapshot of `data/normalized/`
-is versioned in this repo. Three sources carry **parallel data**:
+**351,210 documents** across 16 sources. Snapshot of `data/normalized/`
+is versioned in this repo. Four sources carry **parallel data**:
 icorpus (83,544 TW↔ZH sentence pairs), nmtl_dadwt (64,281 Han-Lo↔POJ
-paragraph pairs), and ungian_guliau_supin (separate HL and POJ subsets).
+paragraph pairs in POJ-numerical), khinhoan_pojbh (37,984 Han-Lo↔POJ
+paragraph pairs in POJ-diacritic), and ungian_guliau_supin (separate
+HL and POJ subsets).
 
 ## Quick start
 
@@ -42,12 +44,13 @@ upstream and replaces the raw cache; only the latest snapshot is kept.
 | chhoetaigi_pehoe     | 1956 台灣白話基礎語句           | CSV    | 5,429       | CC-BY-SA-4.0        |
 | ungian_guliau_supin  | 2005 楊允言 NSC 台語文語料庫    | TAR    | 5,207       | unknown             |
 | icorpus              | 台華平行新聞語料庫 (中研院)      | JSON   | 3,266       | CC-BY-NC-SA-4.0     |
+| khinhoan_pojbh       | 台灣白話字文獻館 (NTNU)          | JSON   | 2,733       | unknown             |
 | nmtl_dadwt           | 台語文數位典藏資料庫 (NMTL)      | JSON   | 2,167       | unknown             |
 | pts_taigitv          | 公視台語台 新詞辭典             | JSON   | 2,157       | CC-BY-4.0           |
 | chhoetaigi_sitbut    | 1928 台灣植物名彙               | CSV    | 1,722       | CC-BY-SA-4.0        |
 | kanggesu             | 台語工藝詞庫                    | JSON   | 1,209       | CC-BY-NC            |
 | tsbp                 | 台文通訊BONG報                  | HTML   | 88          | unknown             |
-| **TOTAL**            |                               |        | **348,477** |                     |
+| **TOTAL**            |                               |        | **351,210** |                     |
 
 ## Upstream
 
@@ -59,21 +62,26 @@ upstream and replaces the raw cache; only the latest snapshot is kept.
 - `icorpus` — pre-built `icorpus.json` from [sih4sing5hong5/icorpus](https://github.com/sih4sing5hong5/icorpus) (Academia Sinica IIS)
 - `ungian_guliau_supin` — full `master.tar.gz` from [Taiwanese-Corpus/Ungian_2005_guliau-supin](https://github.com/Taiwanese-Corpus/Ungian_2005_guliau-supin)
 - `nmtl_dadwt` — pre-built `nmtl.json` from [Taiwanese-Corpus/nmtl_2006_dadwt](https://github.com/Taiwanese-Corpus/nmtl_2006_dadwt) (NMTL)
+- `khinhoan_pojbh` — pre-built `pojbh.json` from [Taiwanese-Corpus/Khin-hoan_2010_pojbh](https://github.com/Taiwanese-Corpus/Khin-hoan_2010_pojbh) (NTNU 白話字文獻館)
 
 ## Parallel data
 
-Three sources carry alignment data usable for sequence-to-sequence
+Four sources carry alignment data usable for sequence-to-sequence
 training. Each parallel record is stored in a single `Document`; the
 primary side lives in `text` and the alignment lives in a typed
 metadata field.
 
-| Source              | Pair                        | Granularity | Pairs   | Metadata field          |
-|---------------------|-----------------------------|-------------|--------:|-------------------------|
-| icorpus             | Taiwanese (POJ) ↔ Mandarin  | sentence    |  83,544 | `metadata.parallel_zh`  |
-| nmtl_dadwt          | Han-Lo ↔ POJ                | paragraph   |  64,281 | `metadata.parallel_poj` |
-| ungian_guliau_supin | Han-Lo + POJ (not aligned)  | —           |     —   | (separate `subset:HL` / `subset:POJ` docs) |
+| Source              | Pair                                | Granularity | Pairs   | Metadata field          |
+|---------------------|-------------------------------------|-------------|--------:|-------------------------|
+| icorpus             | Taiwanese (POJ-numerical) ↔ Mandarin | sentence    |  83,544 | `metadata.parallel_zh`  |
+| nmtl_dadwt          | Han-Lo ↔ POJ-numerical              | paragraph   |  64,281 | `metadata.parallel_poj` |
+| khinhoan_pojbh      | Han-Lo ↔ POJ-diacritic              | paragraph   |  37,984 | `metadata.parallel_poj` |
+| ungian_guliau_supin | Han-Lo + POJ-numerical (not aligned) | —           |     —   | (separate `subset:HL` / `subset:POJ` docs) |
 
 Within a parallel record, line N of `text` corresponds to line N of
-the parallel field. See each source's `README.md` for extraction code.
+the parallel field. khinhoan_pojbh additionally tags each document
+`parallel-status:aligned` or `parallel-status:mismatched`; the pair
+count above counts only `aligned` records. See each source's
+`README.md` for extraction code.
 
 Schema, conventions, and how to add a new source: see [`CLAUDE.md`](CLAUDE.md).
