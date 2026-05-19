@@ -1,0 +1,10 @@
+source_id: nmtl_dadwt
+source_name: "台語文數位典藏資料庫 (NMTL DADWT)"
+source_url: "http://xdcm.nmtl.gov.tw/dadwt/pbk.asp"
+license: "unknown"
+license_notes: "Upstream GitHub repo (Taiwanese-Corpus/nmtl_2006_dadwt) has no LICENSE file. Compiled by the National Museum of Taiwan Literature (NMTL). Spans authors from 1885 to the modern era; copyright remains with the original authors or their estates. Verify per-author authorization before any commercial or training use."
+copyright_holder: "Various original authors; compiled by National Museum of Taiwan Literature"
+contact: ""
+language: "nan-Hant-TW"
+default_script: "hanlo"
+description: "2,167 Taiwanese literary works archived by NMTL in the DADWT project. Each article carries paragraph-aligned Han-Lo (漢羅) and POJ (全羅, numerical romanization) versions of the same text. Frozen 2018-07 GitHub snapshot of the pre-built nmtl.json. `make build-nmtl_dadwt` re-fetches in full."

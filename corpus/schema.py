@@ -55,6 +55,7 @@ class DocumentMetadata(BaseModel):
     title: str = ""
     tags: list[str] = Field(default_factory=list)
     parallel_zh: str = ""
+    parallel_poj: str = ""
 
     @classmethod
     def from_source(
@@ -70,6 +71,7 @@ class DocumentMetadata(BaseModel):
         title: str = "",
         tags: list[str] | None = None,
         parallel_zh: str = "",
+        parallel_poj: str = "",
     ) -> "DocumentMetadata":
         return cls(
             source_id=source.source_id,
@@ -88,6 +90,7 @@ class DocumentMetadata(BaseModel):
             title=title,
             tags=tags or [],
             parallel_zh=parallel_zh,
+            parallel_poj=parallel_poj,
         )
 
 
