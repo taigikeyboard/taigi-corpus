@@ -1,0 +1,10 @@
+source_id: khinhoan_pojbh
+source_name: "台灣白話字文獻館 (POJ Bûn-hiàn-koán, NTNU)"
+source_url: "http://pojbh.lib.ntnu.edu.tw/"
+license: "unknown"
+license_notes: "Upstream README states the database is released under a Creative Commons license but does not specify the version (cc.org.tw page linked). Main text owned by 數位典藏國家型科技計畫 and 國立臺灣師範大學 台灣文化及語言文學研究所; verify the specific CC variant with the upstream site before commercial or training use."
+copyright_holder: "國立臺灣師範大學 台灣文化及語言文學研究所; 數位典藏國家型科技計畫 (Taiwan e-Learning and Digital Archives Program)"
+contact: ""
+language: "nan-Hant-TW"
+default_script: "hanlo"
+description: "2,733 articles from the NTNU 白話字文獻館 project (2007-2010), spanning 1885-2008 Taiwanese Presbyterian-Church publications (台灣教會公報, 芥菜子, 台南府城教會報, etc.). Each article carries paragraph-aligned Han-Lo (text) and POJ-diacritic (metadata.parallel_poj) versions. Built from the upstream pojbh.json snapshot."
