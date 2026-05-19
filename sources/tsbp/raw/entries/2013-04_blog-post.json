@@ -1,0 +1,77 @@
+{
+  "id": {
+    "$t": "tag:blogger.com,1999:blog-4940056489303246146.post-7047819446242215119"
+  },
+  "published": {
+    "$t": "2013-04-08T14:02:00.006+08:00"
+  },
+  "updated": {
+    "$t": "2013-04-09T19:42:30.485+08:00"
+  },
+  "category": [
+    {
+      "scheme": "http://www.blogger.com/atom/ns#",
+      "term": "Hakka屋家"
+    }
+  ],
+  "title": {
+    "type": "text",
+    "$t": "黛綠年華"
+  },
+  "content": {
+    "type": "html",
+    "$t": "<br />\n<b id=\"internal-source-marker_0.9613179671578109\" style=\"font-weight: normal;\"><span style=\"vertical-align: baseline; white-space: pre-wrap;\"><span style=\"font-family: Times, Times New Roman, serif;\">吳瑞琪</span></span></b><br />\n<span style=\"font-family: Times, Times New Roman, serif;\"><br /></span>\n<span style=\"font-family: Times, Times New Roman, serif;\">合身白綿衫</span><br />\n<span style=\"font-family: Times, Times New Roman, serif;\">浸青格仔裙</span><br />\n<span style=\"font-family: Times, Times New Roman, serif;\">高tsâng紅靴筒</span><br />\n<span style=\"font-family: Times, Times New Roman, serif;\">手尖腳幼好身胚</span><br />\n<span style=\"font-family: Times, Times New Roman, serif;\">細妹伶俐靚ne-ne</span><br />\n<span style=\"font-family: Times, Times New Roman, serif;\"></span><br />\n<a name='more'></a><span style=\"font-family: Times, Times New Roman, serif;\"><br /></span><br />\n<span style=\"font-family: Times, Times New Roman, serif;\">心似浮雲多把變</span><br />\n<span style=\"font-family: Times, Times New Roman, serif;\">東片乍晴一陣風</span><br />\n<span style=\"font-family: Times, Times New Roman, serif;\">西片落雨出天弓</span><br />\n<span style=\"font-family: Times, Times New Roman, serif;\">愛花愛月愛星光</span><br />\n<span style=\"font-family: Times, Times New Roman, serif;\">細妹笑容謎樣心</span><br />\n<span style=\"font-family: Times, Times New Roman, serif;\"><br /></span>\n<span style=\"font-family: Times, Times New Roman, serif;\">嬌sîi潑潑行kiâm來</span><br />\n<span style=\"font-family: Times, Times New Roman, serif;\">芬芳水邊野薑花一蕊</span><br />\n<span style=\"font-family: Times, Times New Roman, serif;\">自開自香自幽雅</span><br />\n<span style=\"font-family: Times, Times New Roman, serif;\">水流風過揚葉仔停</span><br />\n<span style=\"font-family: Times, Times New Roman, serif;\">細妹心肝自精靈</span><br />\n<span style=\"font-family: Times, Times New Roman, serif;\">Khiù-khiù雲絲長腰腰</span><br />\n<span style=\"font-family: Times, Times New Roman, serif;\">胭脂紅脣一彎月牙笑</span><br />\n<div>\n<br /></div>\n"
+  },
+  "link": [
+    {
+      "rel": "replies",
+      "type": "application/atom+xml",
+      "href": "https://tsbp.tgb.org.tw/feeds/7047819446242215119/comments/default",
+      "title": "張貼留言"
+    },
+    {
+      "rel": "replies",
+      "type": "text/html",
+      "href": "https://tsbp.tgb.org.tw/2013/04/blog-post.html#comment-form",
+      "title": "0 個意見"
+    },
+    {
+      "rel": "edit",
+      "type": "application/atom+xml",
+      "href": "https://www.blogger.com/feeds/4940056489303246146/posts/default/7047819446242215119"
+    },
+    {
+      "rel": "self",
+      "type": "application/atom+xml",
+      "href": "https://www.blogger.com/feeds/4940056489303246146/posts/default/7047819446242215119"
+    },
+    {
+      "rel": "alternate",
+      "type": "text/html",
+      "href": "https://tsbp.tgb.org.tw/2013/04/blog-post.html",
+      "title": "黛綠年華"
+    }
+  ],
+  "author": [
+    {
+      "name": {
+        "$t": "李江却台語文教基金會"
+      },
+      "uri": {
+        "$t": "http://www.blogger.com/profile/04803411121195812908"
+      },
+      "email": {
+        "$t": "noreply@blogger.com"
+      },
+      "gd$image": {
+        "rel": "http://schemas.google.com/g/2005#thumbnail",
+        "width": "16",
+        "height": "16",
+        "src": "https://img1.blogblog.com/img/b16-rounded.gif"
+      }
+    }
+  ],
+  "thr$total": {
+    "$t": "0"
+  }
+}

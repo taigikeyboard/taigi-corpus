@@ -1,0 +1,81 @@
+{
+  "id": {
+    "$t": "tag:blogger.com,1999:blog-4940056489303246146.post-2458846887775692874"
+  },
+  "published": {
+    "$t": "2012-07-31T15:19:00.003+08:00"
+  },
+  "updated": {
+    "$t": "2012-08-01T10:03:13.474+08:00"
+  },
+  "category": [
+    {
+      "scheme": "http://www.blogger.com/atom/ns#",
+      "term": "台文青年"
+    },
+    {
+      "scheme": "http://www.blogger.com/atom/ns#",
+      "term": "詩"
+    }
+  ],
+  "title": {
+    "type": "text",
+    "$t": "紅豆"
+  },
+  "content": {
+    "type": "html",
+    "$t": "<b id=\"internal-source-marker_0.6073182076215744\" style=\"font-weight: normal;\"><span style=\"font-family: Calibri; font-size: 16px; vertical-align: baseline; white-space: pre-wrap;\">吳竹鈺</span></b><br />\n<b style=\"font-weight: normal;\"><span style=\"font-family: Calibri;\"><span style=\"white-space: pre-wrap;\"><br /></span></span><span style=\"font-family: Calibri; font-size: 16px; vertical-align: baseline; white-space: pre-wrap;\">若講心跳ê色是烏tò͘紅</span><br /><span style=\"font-family: Calibri; font-size: 16px; vertical-align: baseline; white-space: pre-wrap;\"><br /></span></b><br />\n<b style=\"font-weight: normal;\"><span style=\"font-family: Calibri; font-size: 16px; vertical-align: baseline; white-space: pre-wrap;\">思念ê源頭</span><br /><span style=\"font-family: Calibri; font-size: 16px; vertical-align: baseline; white-space: pre-wrap;\"><br /></span></b><br />\n<b style=\"font-weight: normal;\"><span style=\"font-family: Calibri; font-size: 16px; vertical-align: baseline; white-space: pre-wrap;\">是你ê芬芳</span><br /><span style=\"font-family: Calibri; font-size: 16px; vertical-align: baseline; white-space: pre-wrap;\"></span></b><br />\n<a name='more'></a><b style=\"font-weight: normal;\"><span style=\"font-family: Calibri; font-size: 16px; vertical-align: baseline; white-space: pre-wrap;\">若講世界ê起始是</span><br /><span style=\"font-family: Calibri; font-size: 16px; vertical-align: baseline; white-space: pre-wrap;\"><br /></span></b><br />\n<b style=\"font-weight: normal;\"><span style=\"font-family: Calibri; font-size: 16px; vertical-align: baseline; white-space: pre-wrap;\">一場夢</span><br /><span style=\"font-family: Calibri; font-size: 16px; vertical-align: baseline; white-space: pre-wrap;\"><br /></span></b><br />\n<b style=\"font-weight: normal;\"><span style=\"font-family: Calibri; font-size: 16px; vertical-align: baseline; white-space: pre-wrap;\">你我ê回憶</span><br /><span style=\"font-family: Calibri; font-size: 16px; vertical-align: baseline; white-space: pre-wrap;\"></span><br /><span style=\"font-family: Calibri; font-size: 16px; vertical-align: baseline; white-space: pre-wrap;\"><br /></span></b><br />\n<b style=\"font-weight: normal;\"><span style=\"font-family: Calibri; font-size: 16px; vertical-align: baseline; white-space: pre-wrap;\">終其尾</span><br /><span style=\"font-family: Calibri; font-size: 16px; vertical-align: baseline; white-space: pre-wrap;\"><br /></span></b><br />\n<b style=\"font-weight: normal;\"><span style=\"font-family: Calibri; font-size: 16px; vertical-align: baseline; white-space: pre-wrap;\">一場 &nbsp;&nbsp;&nbsp;空</span><br /><span style=\"font-family: Calibri; font-size: 16px; vertical-align: baseline; white-space: pre-wrap;\"></span></b><br />\n<div style=\"text-align: right;\">\n<b style=\"font-weight: normal;\"><b style=\"font-weight: normal;\"><span style=\"font-family: Calibri; vertical-align: baseline; white-space: pre-wrap;\"><span style=\"font-size: x-small;\">（作者是中山醫學大學台語系學生）</span></span></b></b></div>"
+  },
+  "link": [
+    {
+      "rel": "replies",
+      "type": "application/atom+xml",
+      "href": "https://tsbp.tgb.org.tw/feeds/2458846887775692874/comments/default",
+      "title": "張貼留言"
+    },
+    {
+      "rel": "replies",
+      "type": "text/html",
+      "href": "https://tsbp.tgb.org.tw/2012/07/blog-post_31.html#comment-form",
+      "title": "0 個意見"
+    },
+    {
+      "rel": "edit",
+      "type": "application/atom+xml",
+      "href": "https://www.blogger.com/feeds/4940056489303246146/posts/default/2458846887775692874"
+    },
+    {
+      "rel": "self",
+      "type": "application/atom+xml",
+      "href": "https://www.blogger.com/feeds/4940056489303246146/posts/default/2458846887775692874"
+    },
+    {
+      "rel": "alternate",
+      "type": "text/html",
+      "href": "https://tsbp.tgb.org.tw/2012/07/blog-post_31.html",
+      "title": "紅豆"
+    }
+  ],
+  "author": [
+    {
+      "name": {
+        "$t": "李江却台語文教基金會"
+      },
+      "uri": {
+        "$t": "http://www.blogger.com/profile/04803411121195812908"
+      },
+      "email": {
+        "$t": "noreply@blogger.com"
+      },
+      "gd$image": {
+        "rel": "http://schemas.google.com/g/2005#thumbnail",
+        "width": "16",
+        "height": "16",
+        "src": "https://img1.blogblog.com/img/b16-rounded.gif"
+      }
+    }
+  ],
+  "thr$total": {
+    "$t": "0"
+  }
+}

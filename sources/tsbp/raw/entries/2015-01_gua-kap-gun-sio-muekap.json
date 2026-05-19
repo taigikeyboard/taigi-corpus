@@ -1,0 +1,62 @@
+{
+  "id": {
+    "$t": "tag:blogger.com,1999:blog-4940056489303246146.post-5107874209829948381"
+  },
+  "published": {
+    "$t": "2015-01-30T18:42:00.000+08:00"
+  },
+  "updated": {
+    "$t": "2018-08-30T17:54:12.083+08:00"
+  },
+  "title": {
+    "type": "text",
+    "$t": "Guá kap gún sió-muē（我kap阮小妹）（有聲♪）        "
+  },
+  "content": {
+    "type": "html",
+    "$t": "<div style=\"text-align: center;\">\n<iframe allow=\"autoplay; encrypted-media\" allowfullscreen=\"\" frameborder=\"0\" height=\"315\" src=\"https://www.youtube.com/embed/qQYkbn5MhBc\" width=\"560\"></iframe><br /></div>\n<br />\n▍<span style=\"font-family: &quot;taigi unicode&quot;;\">Guá kap gún sió-muē</span><br />\n<br />\n<div class=\"MsoNormal\">\n<span lang=\"EN-US\" style=\"font-family: &quot;taigi unicode&quot;;\">作者：<span style=\"text-align: right;\">Ko Ka-hui</span><span style=\"mso-spacerun: yes;\">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;</span><o:p></o:p></span></div>\n<div align=\"right\" class=\"MsoNormal\" style=\"text-align: right;\">\n<br /></div>\n<div class=\"MsoNormal\">\n<span lang=\"EN-US\" style=\"font-family: &quot;taigi unicode&quot;;\">Gún sió-muē sī tsi̍t ê iu-siù ê lâng, guá kap i tsò-hué tuā-hàn--ê, kám-tsîng tsiok hó--ê. Tī sè-hàn ê sî, guá lóng ē hām i sńg tshit-thô-mih-á iah sī ang-á, guá kap i lóng sńg kah tsiok huann-hí--ê. <o:p></o:p></span></div>\n<div class=\"MsoNormal\">\n<br /></div>\n<div class=\"MsoNormal\">\n<span lang=\"EN-US\" style=\"font-family: &quot;taigi unicode&quot;;\">Guá ē kì-tit tī guá tha̍k ko-tiong ê sî-tsūn, tāi-iok 8, 9 nî tsîng, guá ê sin-thé bô hó, i lóng tī leh guá ê sin-khu-pinn puê-phuānn--guá, tiām-tiām thiann guá ê sim-tsîng, m̄-kuán guá án-ná kóng hōo i thiann, i lóng tsuân-pōo tsiap-siu, sui-bóng guá ê tsōng-hóng ū-sî hó ū-sî bái, i tuì guá lóng tsiok tsán--ê. <o:p></o:p></span></div>\n<div class=\"MsoNormal\">\n<br /></div>\n<div class=\"MsoNormal\">\n<span lang=\"EN-US\" style=\"font-family: &quot;taigi unicode&quot;;\">Guá tsit-má siūnn--khí-lâi, nā m̄-sī gún sió-muē, guá tsá tō khioh-ka̍k--khì--ah, sim-lāi si̍t-tsāi tsiok kám-siā--i--ê. M̄-nā i ū kong-lô, gún a-pa kap a-bú mā sī tsiok tsiàu-kòo--guá--ê, gún tsi̍t-ke-hué-á kám-tsîng lóng tsin hó, guá tsiok hó-ūn tī tsit-ê ka-tîng tshut-sì, guá tsin-sim kám-siā--in. <a href=\"https://www.blogger.com/null\" name=\"_GoBack\"></a><o:p></o:p></span></div>\n<br />"
+  },
+  "link": [
+    {
+      "rel": "edit",
+      "type": "application/atom+xml",
+      "href": "https://www.blogger.com/feeds/4940056489303246146/posts/default/5107874209829948381"
+    },
+    {
+      "rel": "self",
+      "type": "application/atom+xml",
+      "href": "https://www.blogger.com/feeds/4940056489303246146/posts/default/5107874209829948381"
+    },
+    {
+      "rel": "alternate",
+      "type": "text/html",
+      "href": "https://tsbp.tgb.org.tw/2015/01/gua-kap-gun-sio-muekap.html",
+      "title": "Guá kap gún sió-muē（我kap阮小妹）（有聲♪）        "
+    }
+  ],
+  "author": [
+    {
+      "name": {
+        "$t": "李江却台語文教基金會"
+      },
+      "uri": {
+        "$t": "http://www.blogger.com/profile/04803411121195812908"
+      },
+      "email": {
+        "$t": "noreply@blogger.com"
+      },
+      "gd$image": {
+        "rel": "http://schemas.google.com/g/2005#thumbnail",
+        "width": "16",
+        "height": "16",
+        "src": "https://img1.blogblog.com/img/b16-rounded.gif"
+      }
+    }
+  ],
+  "media$thumbnail": {
+    "xmlns$media": "http://search.yahoo.com/mrss/",
+    "url": "https://img.youtube.com/vi/qQYkbn5MhBc/default.jpg",
+    "height": "72",
+    "width": "72"
+  }
+}

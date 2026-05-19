@@ -1,0 +1,72 @@
+{
+  "id": {
+    "$t": "tag:blogger.com,1999:blog-4940056489303246146.post-4808770577923396794"
+  },
+  "published": {
+    "$t": "2015-01-30T18:36:00.000+08:00"
+  },
+  "updated": {
+    "$t": "2018-08-16T09:17:13.377+08:00"
+  },
+  "category": [
+    {
+      "scheme": "http://www.blogger.com/atom/ns#",
+      "term": "做伙來唸詩"
+    },
+    {
+      "scheme": "http://www.blogger.com/atom/ns#",
+      "term": "有聲♪"
+    }
+  ],
+  "title": {
+    "type": "text",
+    "$t": "庄跤生活（有聲♪）"
+  },
+  "content": {
+    "type": "html",
+    "$t": "<div style=\"text-align: center;\">\n<iframe allow=\"autoplay; encrypted-media\" allowfullscreen=\"\" frameborder=\"0\" height=\"315\" src=\"https://www.youtube.com/embed/6AOR5Nhghd0\" width=\"560\"></iframe></div>\n<div class=\"MsoNormal\" style=\"line-height: 24px; margin-bottom: 6pt; text-indent: 24pt;\">\n<div style=\"text-align: center; text-indent: 0px;\">\n台文通訊BONG報（No.292）</div>\n<div style=\"text-indent: 0px;\">\n<div style=\"text-align: center;\">\n-----------------------------------------------</div>\n</div>\n</div>\n▍庄跤生活<br />作者：蘇晏德<div class=\"MsoNormal\" style=\"line-height: 24px; margin-bottom: 6pt;\">\n<br />庄跤生活真趣味<br />拄著大廟leh搬戲 <br />廟埕鬧熱有童乩 <br />童乩起tâng頭khi-khi <br />古早guán兜有飼豬 <br />看伊大隻真歡喜 <br />賣掉ē-tàng趁大錢 <br />全家歡喜好過年 <br /></div>\n<div class=\"MsoNormal\" style=\"line-height: 24px; margin-bottom: 6pt;\">\n歇睏相招去釣魚 <br />掠魚來做sa-sí-mih <br />Uan-na食uan-na看電視 <br />暗時埕斗看天星 <br />天頂ê月娘suí koh圓 <br />月娘啊月娘 <br />請你tàu保庇 <br />Hōo guán萬事lóng如意<br /></div>\n<div class=\"MsoNormal\" style=\"line-height: 24px; margin-bottom: 6pt; text-indent: 24pt;\">\n<br /></div>\n"
+  },
+  "link": [
+    {
+      "rel": "edit",
+      "type": "application/atom+xml",
+      "href": "https://www.blogger.com/feeds/4940056489303246146/posts/default/4808770577923396794"
+    },
+    {
+      "rel": "self",
+      "type": "application/atom+xml",
+      "href": "https://www.blogger.com/feeds/4940056489303246146/posts/default/4808770577923396794"
+    },
+    {
+      "rel": "alternate",
+      "type": "text/html",
+      "href": "https://tsbp.tgb.org.tw/2015/01/blog-post_88.html",
+      "title": "庄跤生活（有聲♪）"
+    }
+  ],
+  "author": [
+    {
+      "name": {
+        "$t": "李江却台語文教基金會"
+      },
+      "uri": {
+        "$t": "http://www.blogger.com/profile/04803411121195812908"
+      },
+      "email": {
+        "$t": "noreply@blogger.com"
+      },
+      "gd$image": {
+        "rel": "http://schemas.google.com/g/2005#thumbnail",
+        "width": "16",
+        "height": "16",
+        "src": "https://img1.blogblog.com/img/b16-rounded.gif"
+      }
+    }
+  ],
+  "media$thumbnail": {
+    "xmlns$media": "http://search.yahoo.com/mrss/",
+    "url": "https://img.youtube.com/vi/6AOR5Nhghd0/default.jpg",
+    "height": "72",
+    "width": "72"
+  }
+}

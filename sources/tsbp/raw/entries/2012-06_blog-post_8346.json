@@ -1,0 +1,77 @@
+{
+  "id": {
+    "$t": "tag:blogger.com,1999:blog-4940056489303246146.post-3795663978647708326"
+  },
+  "published": {
+    "$t": "2012-06-30T10:11:00.003+08:00"
+  },
+  "updated": {
+    "$t": "2012-07-01T12:51:03.547+08:00"
+  },
+  "category": [
+    {
+      "scheme": "http://www.blogger.com/atom/ns#",
+      "term": "花埕照日"
+    }
+  ],
+  "title": {
+    "type": "text",
+    "$t": "台中。班芝仔樹"
+  },
+  "content": {
+    "type": "html",
+    "$t": "王昭華<br />\n<br />\n<b id=\"internal-source-marker_0.9801285089924932\" style=\"font-weight: normal;\"><span style=\"background-color: transparent; font-family: Calibri; font-size: 16px; vertical-align: baseline; white-space: pre-wrap;\">班芝花就是木棉花。我mā是到tsit幾年，tī教材編寫小組熟sāi鳥仔樹仔bat透透ê吳銘進老師，聽伊講起tsiah知。『木棉』ê台語名叫「班芝」（『吉貝木棉』叫「加布棉」），tī台南縣東山鄉有一个地號就叫做「班芝花坑」。</span><br /><span style=\"background-color: transparent; font-family: Calibri; font-size: 16px; vertical-align: baseline; white-space: pre-wrap;\"> </span></b><br />\n<a name='more'></a><b id=\"internal-source-marker_0.9801285089924932\" style=\"font-weight: normal;\"><span style=\"background-color: transparent; font-family: Calibri; font-size: 16px; vertical-align: baseline; white-space: pre-wrap;\">今tsái起落去台中，車頂愛睏補眠，koh家己知thang醒──目睭一peh金，發覺路是彎--ê，正手爿車窗外幾若欉紅花當開ê班芝……「台中到--ah，tio̍h--無？」</span><br /><span style=\"background-color: transparent; font-family: Calibri; font-size: 16px; vertical-align: baseline; white-space: pre-wrap;\"></span><br /><span style=\"background-color: transparent; font-family: Calibri; font-size: 16px; vertical-align: baseline; white-space: pre-wrap;\">中港路交流道，上好認就是tsit个時，交流道khōng--起-來ê hit堀草坪頂仔，種--ê hit幾欉班芝仔樹，開kah ná to̍h火leh燒仝款。對我來講，春天時tsit幾欉不止仔「tsha̍k目」ê樹仔，就是台中市大門ê標誌、台中城ê「入口意象」：先是開花ê班芝仔樹，suà--落-來tsiah是苦惱ê塞車、好食ê太陽餅、氣派ê kuân樓仔，kap聽講tsiok濟tsiok濟但是lóng無緣bat kah半个ê好額人。</span><br /><span style=\"background-color: transparent; font-family: Calibri; font-size: 16px; vertical-align: baseline; white-space: pre-wrap;\"></span><br /><span style=\"background-color: transparent; font-family: Calibri; font-size: 16px; vertical-align: baseline; white-space: pre-wrap;\">E晡天氣tsiok好，日頭ê溫度拄仔好勢，mā lio̍h仔有風。台中舊酒廠，tsit擺「假日廣場」ê舞台就搭tī大路邊，倚人行道，幾若叢班芝仔kap烏枋樹排規列。點半鐘ê節目，我唱第三段。陪美賢顧擔仔位ê時，看tuì邊--a去，就有一欉iáu leh開ê班芝樹，聽講頂禮拜花lak kah規塗跤。</span><br /><span style=\"background-color: transparent; font-family: Calibri; font-size: 16px; vertical-align: baseline; white-space: pre-wrap;\"></span><br /><span style=\"background-color: transparent; font-family: Calibri; font-size: 16px; vertical-align: baseline; white-space: pre-wrap;\">Tsiâⁿ久無寫生，春天，看著開花ê樹仔，suah ē有想beh攑筆kā畫--落-來ê衝動，就án-ne，畫tī簿仔--裡。</span></b>"
+  },
+  "link": [
+    {
+      "rel": "replies",
+      "type": "application/atom+xml",
+      "href": "https://tsbp.tgb.org.tw/feeds/3795663978647708326/comments/default",
+      "title": "張貼留言"
+    },
+    {
+      "rel": "replies",
+      "type": "text/html",
+      "href": "https://tsbp.tgb.org.tw/2012/06/blog-post_8346.html#comment-form",
+      "title": "1 個意見"
+    },
+    {
+      "rel": "edit",
+      "type": "application/atom+xml",
+      "href": "https://www.blogger.com/feeds/4940056489303246146/posts/default/3795663978647708326"
+    },
+    {
+      "rel": "self",
+      "type": "application/atom+xml",
+      "href": "https://www.blogger.com/feeds/4940056489303246146/posts/default/3795663978647708326"
+    },
+    {
+      "rel": "alternate",
+      "type": "text/html",
+      "href": "https://tsbp.tgb.org.tw/2012/06/blog-post_8346.html",
+      "title": "台中。班芝仔樹"
+    }
+  ],
+  "author": [
+    {
+      "name": {
+        "$t": "李江却台語文教基金會"
+      },
+      "uri": {
+        "$t": "http://www.blogger.com/profile/04803411121195812908"
+      },
+      "email": {
+        "$t": "noreply@blogger.com"
+      },
+      "gd$image": {
+        "rel": "http://schemas.google.com/g/2005#thumbnail",
+        "width": "16",
+        "height": "16",
+        "src": "https://img1.blogblog.com/img/b16-rounded.gif"
+      }
+    }
+  ],
+  "thr$total": {
+    "$t": "1"
+  }
+}

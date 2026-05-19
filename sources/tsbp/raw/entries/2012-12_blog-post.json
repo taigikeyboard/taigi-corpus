@@ -1,0 +1,77 @@
+{
+  "id": {
+    "$t": "tag:blogger.com,1999:blog-4940056489303246146.post-5975133499323261090"
+  },
+  "published": {
+    "$t": "2012-12-01T10:54:00.000+08:00"
+  },
+  "updated": {
+    "$t": "2012-12-01T10:54:17.850+08:00"
+  },
+  "category": [
+    {
+      "scheme": "http://www.blogger.com/atom/ns#",
+      "term": "詩"
+    }
+  ],
+  "title": {
+    "type": "text",
+    "$t": "無題"
+  },
+  "content": {
+    "type": "html",
+    "$t": "<span style=\"font-size: 15px; vertical-align: baseline; white-space: pre-wrap;\"><span style=\"font-family: Arial;\">李美嬌</span></span><br />\n<b style=\"font-weight: normal;\"><span style=\"font-family: Arial; font-size: 15px; vertical-align: baseline; white-space: pre-wrap;\"><br /></span></b>\n<b id=\"internal-source-marker_0.20382021949626505\" style=\"font-weight: normal;\"><span style=\"font-family: Arial; font-size: 15px; vertical-align: baseline; white-space: pre-wrap;\">花紅無意為君suí，色褪怎驚無蜂khîⁿ</span><br /><span style=\"font-family: Arial; font-size: 15px; vertical-align: baseline; white-space: pre-wrap;\">粒積果功蒼生獻，春醒花開福祿迎</span><br /><span style=\"font-family: Arial; font-size: 15px; vertical-align: baseline; white-space: pre-wrap;\"></span><br /><span style=\"font-family: Arial; font-size: 15px; vertical-align: baseline; white-space: pre-wrap;\">花開花謝是過程，得意失意走馬燈</span><br /><span style=\"font-family: Arial; font-size: 15px; vertical-align: baseline; white-space: pre-wrap;\">心頭掠定向善行，有情社會蔭眾生</span></b>"
+  },
+  "link": [
+    {
+      "rel": "replies",
+      "type": "application/atom+xml",
+      "href": "https://tsbp.tgb.org.tw/feeds/5975133499323261090/comments/default",
+      "title": "張貼留言"
+    },
+    {
+      "rel": "replies",
+      "type": "text/html",
+      "href": "https://tsbp.tgb.org.tw/2012/12/blog-post.html#comment-form",
+      "title": "0 個意見"
+    },
+    {
+      "rel": "edit",
+      "type": "application/atom+xml",
+      "href": "https://www.blogger.com/feeds/4940056489303246146/posts/default/5975133499323261090"
+    },
+    {
+      "rel": "self",
+      "type": "application/atom+xml",
+      "href": "https://www.blogger.com/feeds/4940056489303246146/posts/default/5975133499323261090"
+    },
+    {
+      "rel": "alternate",
+      "type": "text/html",
+      "href": "https://tsbp.tgb.org.tw/2012/12/blog-post.html",
+      "title": "無題"
+    }
+  ],
+  "author": [
+    {
+      "name": {
+        "$t": "李江却台語文教基金會"
+      },
+      "uri": {
+        "$t": "http://www.blogger.com/profile/04803411121195812908"
+      },
+      "email": {
+        "$t": "noreply@blogger.com"
+      },
+      "gd$image": {
+        "rel": "http://schemas.google.com/g/2005#thumbnail",
+        "width": "16",
+        "height": "16",
+        "src": "https://img1.blogblog.com/img/b16-rounded.gif"
+      }
+    }
+  ],
+  "thr$total": {
+    "$t": "0"
+  }
+}

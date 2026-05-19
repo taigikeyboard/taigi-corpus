@@ -1,0 +1,72 @@
+{
+  "id": {
+    "$t": "tag:blogger.com,1999:blog-4940056489303246146.post-4578954419041444589"
+  },
+  "published": {
+    "$t": "2015-01-30T18:19:00.000+08:00"
+  },
+  "updated": {
+    "$t": "2016-08-24T17:03:13.631+08:00"
+  },
+  "category": [
+    {
+      "scheme": "http://www.blogger.com/atom/ns#",
+      "term": "做伙來唸詩"
+    },
+    {
+      "scheme": "http://www.blogger.com/atom/ns#",
+      "term": "有聲♪"
+    }
+  ],
+  "title": {
+    "type": "text",
+    "$t": "湖口老街（有聲♪）"
+  },
+  "content": {
+    "type": "html",
+    "$t": "<div style=\"text-align: center;\">\n<iframe allowfullscreen=\"\" frameborder=\"0\" height=\"360\" src=\"https://www.youtube.com/embed/Ib72yN8sb84\" width=\"480\"></iframe></div>\n<div style=\"text-align: center;\">\n<br /></div>\n<div style=\"text-align: center;\">\n<br /></div>\n<div style=\"text-align: center;\">\n台文通訊BONG報六月號（No.267）</div>\n<div>\n<div style=\"text-align: center;\">\n-----------------------------------------------</div>\n<div>\n<div style=\"text-align: center;\">\n<br /></div>\n▍湖口老街<br />\n作者：蘇晏德&nbsp;</div>\n<div>\n<br />\n<div>\n<br /></div>\n<div>\n<div>\n2015年2月初5</div>\n<div>\n<br />\n昨暗湖口ê風真恐怖<br />\n<br />\n見證新竹風teh憤怒<br />\n<br />\n透早起床心艱苦<br />\n<br />\n猶原想tio̍h復興航空失事hit一幕<br />\n<br />\n離開『雀之巢』moo-thé-luh ê道路<br />\n<br />\n倒uat向北 經過台一線ê路途<br />\n<br />\n透大風lo̍h sap-sap-á雨<br />\n<br />\n<br />\n<br />\n8點8分來到湖口老街<br />\n<br />\n北風一直吹<br />\n<br />\nThàng過我ê心肝底<br />\n<br />\n老街ê古厝滿sì-kè<br />\n<br />\n古式ê建築真豔麗<br />\n<br />\n今仔日ê湖口老街<br />\n<br />\n冷冷清清賰guán一家<br />\n<br />\n無其他ê旅客<br />\n<br />\n<br />\n<br />\n老街雖bóng有khah e̍h<br />\n<br />\nGuán竟然有法度駛車se̍h街<br />\n<br />\n有風有雨ê湖口老街<br />\n<br />\n已經失去原本ê一切<br />\n<br />\n老街ê復興戲園心怨tshè<br />\n<br />\n因為舞台已經換朝代（tē）<br />\n<br />\n我m̄是歸人 我是過客<br />\n<br />\n9點9分徙跤離開他鄉ê土地</div>\n</div>\n</div>\n</div>\n"
+  },
+  "link": [
+    {
+      "rel": "edit",
+      "type": "application/atom+xml",
+      "href": "https://www.blogger.com/feeds/4940056489303246146/posts/default/4578954419041444589"
+    },
+    {
+      "rel": "self",
+      "type": "application/atom+xml",
+      "href": "https://www.blogger.com/feeds/4940056489303246146/posts/default/4578954419041444589"
+    },
+    {
+      "rel": "alternate",
+      "type": "text/html",
+      "href": "https://tsbp.tgb.org.tw/2016/01/blog-post.html",
+      "title": "湖口老街（有聲♪）"
+    }
+  ],
+  "author": [
+    {
+      "name": {
+        "$t": "李江却台語文教基金會"
+      },
+      "uri": {
+        "$t": "http://www.blogger.com/profile/04803411121195812908"
+      },
+      "email": {
+        "$t": "noreply@blogger.com"
+      },
+      "gd$image": {
+        "rel": "http://schemas.google.com/g/2005#thumbnail",
+        "width": "16",
+        "height": "16",
+        "src": "https://img1.blogblog.com/img/b16-rounded.gif"
+      }
+    }
+  ],
+  "media$thumbnail": {
+    "xmlns$media": "http://search.yahoo.com/mrss/",
+    "url": "https://img.youtube.com/vi/Ib72yN8sb84/default.jpg",
+    "height": "72",
+    "width": "72"
+  }
+}

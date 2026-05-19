@@ -1,0 +1,72 @@
+{
+  "id": {
+    "$t": "tag:blogger.com,1999:blog-4940056489303246146.post-1962213957302242823"
+  },
+  "published": {
+    "$t": "2015-01-30T18:37:00.000+08:00"
+  },
+  "updated": {
+    "$t": "2018-08-16T09:42:59.968+08:00"
+  },
+  "category": [
+    {
+      "scheme": "http://www.blogger.com/atom/ns#",
+      "term": "做伙來唸詩"
+    },
+    {
+      "scheme": "http://www.blogger.com/atom/ns#",
+      "term": "有聲♪"
+    }
+  ],
+  "title": {
+    "type": "text",
+    "$t": "喙（有聲♪）"
+  },
+  "content": {
+    "type": "html",
+    "$t": "<div style=\"text-align: center;\">\n<iframe allow=\"autoplay; encrypted-media\" allowfullscreen=\"\" frameborder=\"0\" height=\"315\" src=\"https://www.youtube.com/embed/YN9YZ5DADZ8?ecver=1\" width=\"560\"></iframe></div>\n<div style=\"text-align: center;\">\n<br />\n台文通訊BONG報（No.292）</div>\n<div style=\"text-indent: 0px;\">\n<div>\n<div style=\"text-align: center;\">\n-----------------------------------------------</div>\n<br />\n▍喙<br />\n作者：洪錦田<br />\n<br />\n　人講 <br />\n菱角喙　sian食無夠khuì <br />\n闊喙　食四方 <br />\nKhih喙　未講就làu風 <br />\nBih喙　講話bē膨風 <br />\n粟鳥仔喙　一支喙tsia̍uh bē停 <br />\n　koh孤單 <br />\n花蛤仔喙　gâu pū瀾 <br />\n扁喙--ê　講khah密過米篩 <br />\nTāi魚喙--ê　khah古錐 <br />\n翹喙--ê　厚性地、快受氣<br />\n<br />\n<div class=\"MsoNormal\" style=\"line-height: 24px; margin-bottom: 6pt;\">\n<br /></div>\n</div>\n</div>\n"
+  },
+  "link": [
+    {
+      "rel": "edit",
+      "type": "application/atom+xml",
+      "href": "https://www.blogger.com/feeds/4940056489303246146/posts/default/1962213957302242823"
+    },
+    {
+      "rel": "self",
+      "type": "application/atom+xml",
+      "href": "https://www.blogger.com/feeds/4940056489303246146/posts/default/1962213957302242823"
+    },
+    {
+      "rel": "alternate",
+      "type": "text/html",
+      "href": "https://tsbp.tgb.org.tw/2015/01/blog-post_24.html",
+      "title": "喙（有聲♪）"
+    }
+  ],
+  "author": [
+    {
+      "name": {
+        "$t": "李江却台語文教基金會"
+      },
+      "uri": {
+        "$t": "http://www.blogger.com/profile/04803411121195812908"
+      },
+      "email": {
+        "$t": "noreply@blogger.com"
+      },
+      "gd$image": {
+        "rel": "http://schemas.google.com/g/2005#thumbnail",
+        "width": "16",
+        "height": "16",
+        "src": "https://img1.blogblog.com/img/b16-rounded.gif"
+      }
+    }
+  ],
+  "media$thumbnail": {
+    "xmlns$media": "http://search.yahoo.com/mrss/",
+    "url": "https://img.youtube.com/vi/YN9YZ5DADZ8/default.jpg",
+    "height": "72",
+    "width": "72"
+  }
+}

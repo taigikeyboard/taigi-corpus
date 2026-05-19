@@ -1,0 +1,72 @@
+{
+  "id": {
+    "$t": "tag:blogger.com,1999:blog-4940056489303246146.post-1572083846124209807"
+  },
+  "published": {
+    "$t": "2015-01-30T19:04:00.000+08:00"
+  },
+  "updated": {
+    "$t": "2018-09-21T18:03:43.430+08:00"
+  },
+  "category": [
+    {
+      "scheme": "http://www.blogger.com/atom/ns#",
+      "term": "做伙來唸詩"
+    },
+    {
+      "scheme": "http://www.blogger.com/atom/ns#",
+      "term": "有聲♪"
+    }
+  ],
+  "title": {
+    "type": "text",
+    "$t": "夜市仔ê算命擔"
+  },
+  "content": {
+    "type": "html",
+    "$t": "<div style=\"text-align: center;\">\n<iframe allow=\"autoplay; encrypted-media\" allowfullscreen=\"\" frameborder=\"0\" height=\"315\" src=\"https://www.youtube.com/embed/V0o37ED7Ppg?ecver=1\" width=\"560\"></iframe><br /></div>\n<br />\n<br />\n<div style=\"text-align: left;\">\n▍夜市仔ê算命擔&nbsp;</div>\n<br />\n作者：林益彰<br />\n<br />\n阿爹講guán ê貴人lóng踮tī頂港 <br />\n<br />\n新ê ǹg望充滿未知 <br />\n<br />\n別人眼中孤單分明ê城市 <br />\n<br />\n走揣ê過程lóng是歡喜 <br />\n<br />\n因為guán將艱苦lóng揹tī kha-tsiah-phiann <br />\n<br />\nHe是因為失去ê心態變無仝 <br />\n<br />\n回頭看tsit段路頭 <br />\n<br />\n成功iah是拍ka-la̍uh <br />\n<br />\n無下港ê基礎hām跤步 <br />\n<br />\n按怎有tsiūnn北ê路途 <br />\n<br />\n一路tsiūnn北，tsia̍p-tsia̍p <br />\n<br />\n回頭看南部，不是留戀 <br />\n<br />\n是直覺ê khuà念 <br />\n<br />\n阿爹講guán ê貴人lóng踮tī頂港 <br />\n<br />\n算命先ê話語大過本地kap所在 <br />\n<br />\n自從行出夜市仔ê算命擔 <br />\n<br />\n高速公路ê景色 <br />\n<br />\nGuán已經真久無見過落南ê花蕊 <br />\n<br />\nTī一个塗豆大ê島嶼內底"
+  },
+  "link": [
+    {
+      "rel": "edit",
+      "type": "application/atom+xml",
+      "href": "https://www.blogger.com/feeds/4940056489303246146/posts/default/1572083846124209807"
+    },
+    {
+      "rel": "self",
+      "type": "application/atom+xml",
+      "href": "https://www.blogger.com/feeds/4940056489303246146/posts/default/1572083846124209807"
+    },
+    {
+      "rel": "alternate",
+      "type": "text/html",
+      "href": "https://tsbp.tgb.org.tw/2015/01/e_14.html",
+      "title": "夜市仔ê算命擔"
+    }
+  ],
+  "author": [
+    {
+      "name": {
+        "$t": "李江却台語文教基金會"
+      },
+      "uri": {
+        "$t": "http://www.blogger.com/profile/04803411121195812908"
+      },
+      "email": {
+        "$t": "noreply@blogger.com"
+      },
+      "gd$image": {
+        "rel": "http://schemas.google.com/g/2005#thumbnail",
+        "width": "16",
+        "height": "16",
+        "src": "https://img1.blogblog.com/img/b16-rounded.gif"
+      }
+    }
+  ],
+  "media$thumbnail": {
+    "xmlns$media": "http://search.yahoo.com/mrss/",
+    "url": "https://img.youtube.com/vi/V0o37ED7Ppg/default.jpg",
+    "height": "72",
+    "width": "72"
+  }
+}

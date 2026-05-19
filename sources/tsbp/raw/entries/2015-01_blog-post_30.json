@@ -1,0 +1,72 @@
+{
+  "id": {
+    "$t": "tag:blogger.com,1999:blog-4940056489303246146.post-3547427332567109521"
+  },
+  "published": {
+    "$t": "2015-01-30T18:13:00.000+08:00"
+  },
+  "updated": {
+    "$t": "2015-08-28T17:16:38.467+08:00"
+  },
+  "category": [
+    {
+      "scheme": "http://www.blogger.com/atom/ns#",
+      "term": "台灣人寫真"
+    },
+    {
+      "scheme": "http://www.blogger.com/atom/ns#",
+      "term": "有聲♪"
+    }
+  ],
+  "title": {
+    "type": "text",
+    "$t": "拍火（有聲♪）"
+  },
+  "content": {
+    "type": "html",
+    "$t": "拍火─Hō͘ 1月20失去性命ê六名桃園消防人員<br />\n<div>\n<br /></div>\n<div>\n◎Pháiⁿ-gín-á<br />\n<br /></div>\n<div style=\"text-align: center;\">\n<iframe allowfullscreen=\"\" frameborder=\"0\" height=\"315\" src=\"https://www.youtube.com/embed/_5hYxkGwS9Q\" width=\"560\"></iframe><br /></div>\n<br />\n請m̄-thang用目屎來拍火，我ē行buē開跤<br />\n烏暗中，火蛇tshàng鬚iau鬼beh將guán拆食落腹<br />\n雄狂壓霸ê一面已經了解，只有無奈<br />\n伊ê驕傲，看guán無目地，kám是環境來造成<br />\nHán-huah水龍仔來幫贊相thīn，哪ē無看--見<br />\nIa̍h是早已經化做薰燒烏煙，將轉（tńg）--去ê路來阻擋<br />\n認份認命已經無要無緊<br />\n<div>\n<br /></div>\n<div>\n請m̄-thang用目屎來拍火<br />\n知影火蛇ê無情無法度來渡化hō͘溫柔體諒ê你<br />\n我ê離開只賰無聲ê吐khuì<br />\n你ê笑容啊，看--我ê眼神<br />\nKám ē做伙來消失hō͘我來揣無<br />\nHán-huah你ê名字相辭，哪ē無聽--見<br />\nIa̍h是iáu像鐵熔鋼喙，代替guán悲情ê控訴</div>\n<div>\n<br /></div>\n<div>\n請你m̄-thang用目屎來拍火，tse我已經試--過…<br />\n我ê人生是短，怨嘆koh ē-sái創啥貨<br />\nTsit場火，已經是一場買賣<br />\n我已經無路thang退</div>\n<div>\n你ê目屎已經滴幾若暝<br />\n<br />\n2015/1/20<br />\n<br /></div>\n"
+  },
+  "link": [
+    {
+      "rel": "edit",
+      "type": "application/atom+xml",
+      "href": "https://www.blogger.com/feeds/4940056489303246146/posts/default/3547427332567109521"
+    },
+    {
+      "rel": "self",
+      "type": "application/atom+xml",
+      "href": "https://www.blogger.com/feeds/4940056489303246146/posts/default/3547427332567109521"
+    },
+    {
+      "rel": "alternate",
+      "type": "text/html",
+      "href": "https://tsbp.tgb.org.tw/2015/01/blog-post_30.html",
+      "title": "拍火（有聲♪）"
+    }
+  ],
+  "author": [
+    {
+      "name": {
+        "$t": "李江却台語文教基金會"
+      },
+      "uri": {
+        "$t": "http://www.blogger.com/profile/04803411121195812908"
+      },
+      "email": {
+        "$t": "noreply@blogger.com"
+      },
+      "gd$image": {
+        "rel": "http://schemas.google.com/g/2005#thumbnail",
+        "width": "16",
+        "height": "16",
+        "src": "https://img1.blogblog.com/img/b16-rounded.gif"
+      }
+    }
+  ],
+  "media$thumbnail": {
+    "xmlns$media": "http://search.yahoo.com/mrss/",
+    "url": "https://img.youtube.com/vi/_5hYxkGwS9Q/default.jpg",
+    "height": "72",
+    "width": "72"
+  }
+}

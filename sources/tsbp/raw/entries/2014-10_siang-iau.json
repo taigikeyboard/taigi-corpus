@@ -1,0 +1,77 @@
+{
+  "id": {
+    "$t": "tag:blogger.com,1999:blog-4940056489303246146.post-3615369072820577693"
+  },
+  "published": {
+    "$t": "2014-10-07T15:06:00.001+08:00"
+  },
+  "updated": {
+    "$t": "2014-10-07T15:06:36.881+08:00"
+  },
+  "category": [
+    {
+      "scheme": "http://www.blogger.com/atom/ns#",
+      "term": "做伙來唸詩"
+    }
+  ],
+  "title": {
+    "type": "text",
+    "$t": "是siáng iáu未來出聲？ "
+  },
+  "content": {
+    "type": "html",
+    "$t": "<div class=\"WordSection1\">\n◎杜信龍</div>\n<div class=\"WordSection1\">\n<br /></div>\n<div class=\"WordSection1\">\n<br /></div>\n是siáng iáu未來出聲<br />\n<br />\n日頭赤炎心驚惶 <br />\n<br />\n路mā是tio̍h-ài行 <br />\n<br />\nKám有聽著guán心內ê聲 <br />\n<br />\n行入街頭是為著啥？ <br />\n<br />\n守護自由kap夢想ê門埕 <br />\n<br />\n<br />\n<br />\n是siáng iáu未來出聲 <br />\n<br />\nM̄願限制guán ê命 <br />\n<br />\n為著guán ê囝 <br />\n<br />\n若是guán做伙鬥陣行 <br />\n<br />\n愈緊拍開生sian ê門廳 <br />\n<br />\n若是你聽著guán心聲 <br />\n<br />\n就ē知影你我是仝命 <br />\n<br />\n<br />\n<br />\n是siáng iáu未來出聲 <br />\n<br />\n光輝ê日子靠lán拚 <br />\n<br />\n天地開闊有你就有我 <br />\n<br />\nM̄-thang笑guán悾 <br />\n<br />\nM̄-thang笑guán gōng <br />\n<br />\n出來對抗邪惡ê烏影 <br />\n<br />\nGuán ê心頭踏有tiāⁿ <br />\n<br />\n無試哪ē知輸贏 <br />\n<br />\n<br />\n<br />\n是siáng iáu未來出聲 <br />\n<br />\n7月初1 <br />\n<br />\nHua̍h出你ê雙跤 <br />\n<br />\nTuè guán街頭行 <br />\n<br />\n手牽手將橫霸威權踏 <br />\n<br />\nHō͘ guán大聲huah出心內ê聲 <br />\n<br />\n<br />\n（記：香港佔中運動 2014/7/1） <br />\n<br />\n<br />\n<br />\n<br />"
+  },
+  "link": [
+    {
+      "rel": "replies",
+      "type": "application/atom+xml",
+      "href": "https://tsbp.tgb.org.tw/feeds/3615369072820577693/comments/default",
+      "title": "張貼留言"
+    },
+    {
+      "rel": "replies",
+      "type": "text/html",
+      "href": "https://tsbp.tgb.org.tw/2014/10/siang-iau.html#comment-form",
+      "title": "0 個意見"
+    },
+    {
+      "rel": "edit",
+      "type": "application/atom+xml",
+      "href": "https://www.blogger.com/feeds/4940056489303246146/posts/default/3615369072820577693"
+    },
+    {
+      "rel": "self",
+      "type": "application/atom+xml",
+      "href": "https://www.blogger.com/feeds/4940056489303246146/posts/default/3615369072820577693"
+    },
+    {
+      "rel": "alternate",
+      "type": "text/html",
+      "href": "https://tsbp.tgb.org.tw/2014/10/siang-iau.html",
+      "title": "是siáng iáu未來出聲？ "
+    }
+  ],
+  "author": [
+    {
+      "name": {
+        "$t": "李江却台語文教基金會"
+      },
+      "uri": {
+        "$t": "http://www.blogger.com/profile/04803411121195812908"
+      },
+      "email": {
+        "$t": "noreply@blogger.com"
+      },
+      "gd$image": {
+        "rel": "http://schemas.google.com/g/2005#thumbnail",
+        "width": "16",
+        "height": "16",
+        "src": "https://img1.blogblog.com/img/b16-rounded.gif"
+      }
+    }
+  ],
+  "thr$total": {
+    "$t": "0"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "id": {
+    "$t": "tag:blogger.com,1999:blog-4940056489303246146.post-5253454678557556984"
+  },
+  "published": {
+    "$t": "2015-01-30T19:00:00.000+08:00"
+  },
+  "updated": {
+    "$t": "2018-09-13T15:47:00.053+08:00"
+  },
+  "category": [
+    {
+      "scheme": "http://www.blogger.com/atom/ns#",
+      "term": "做伙來唸詩"
+    },
+    {
+      "scheme": "http://www.blogger.com/atom/ns#",
+      "term": "有聲♪"
+    }
+  ],
+  "title": {
+    "type": "text",
+    "$t": "剪絨仔花"
+  },
+  "content": {
+    "type": "html",
+    "$t": "<div style=\"text-align: center;\">\n<iframe allow=\"autoplay; encrypted-media\" allowfullscreen=\"\" frameborder=\"0\" height=\"315\" src=\"https://www.youtube.com/embed/r0nSp5qkmOQ\" width=\"560\"></iframe><br /></div>\n<br />\n<br />\n<br />\n▍剪絨仔花<br />\n<div>\n<br />\n作者：陳美圓<br />\n<div>\n<br /></div>\n<br />\n剪絨仔花有紅有白 <br />\n<br />\n紅色表示健康kap祝福 <br />\n<br />\n白色表示思念kap回憶 <br />\n<br />\nGuán已經有十年無見著你 <br />\n<br />\nTī每年ê母親節 <br />\n<br />\nIa̍h是tī街路上 <br />\n<br />\n看著kap你年紀相仝 <br />\n<br />\n過去ê種種lóng ē浮tī目睭前 <br />\n<br />\nLán ê母仔囝情 <br />\n<br />\n永遠囥tī心肝底 <br />\n<br />\nǸg望阿母你tī別ê所在 <br />\n<br />\n過了平安快樂</div>\n"
+  },
+  "link": [
+    {
+      "rel": "edit",
+      "type": "application/atom+xml",
+      "href": "https://www.blogger.com/feeds/4940056489303246146/posts/default/5253454678557556984"
+    },
+    {
+      "rel": "self",
+      "type": "application/atom+xml",
+      "href": "https://www.blogger.com/feeds/4940056489303246146/posts/default/5253454678557556984"
+    },
+    {
+      "rel": "alternate",
+      "type": "text/html",
+      "href": "https://tsbp.tgb.org.tw/2015/01/blog-post_85.html",
+      "title": "剪絨仔花"
+    }
+  ],
+  "author": [
+    {
+      "name": {
+        "$t": "李江却台語文教基金會"
+      },
+      "uri": {
+        "$t": "http://www.blogger.com/profile/04803411121195812908"
+      },
+      "email": {
+        "$t": "noreply@blogger.com"
+      },
+      "gd$image": {
+        "rel": "http://schemas.google.com/g/2005#thumbnail",
+        "width": "16",
+        "height": "16",
+        "src": "https://img1.blogblog.com/img/b16-rounded.gif"
+      }
+    }
+  ],
+  "media$thumbnail": {
+    "xmlns$media": "http://search.yahoo.com/mrss/",
+    "url": "https://img.youtube.com/vi/r0nSp5qkmOQ/default.jpg",
+    "height": "72",
+    "width": "72"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "id": {
+    "$t": "tag:blogger.com,1999:blog-4940056489303246146.post-6748509404503541546"
+  },
+  "published": {
+    "$t": "2015-01-30T18:41:00.000+08:00"
+  },
+  "updated": {
+    "$t": "2018-08-30T17:26:32.190+08:00"
+  },
+  "category": [
+    {
+      "scheme": "http://www.blogger.com/atom/ns#",
+      "term": "有聲♪"
+    }
+  ],
+  "title": {
+    "type": "text",
+    "$t": "Guá ê tshit-thô-mi̍h（我ê𨑨迌物）（有聲♪）"
+  },
+  "content": {
+    "type": "html",
+    "$t": "<div style=\"text-align: center;\">\n<iframe allow=\"autoplay; encrypted-media\" allowfullscreen=\"\" frameborder=\"0\" height=\"315\" src=\"https://www.youtube.com/embed/yVhNQCtMa7Y\" width=\"560\"></iframe><br /></div>\n<br />\n▍<b><span lang=\"EN\" style=\"font-family: &quot;times new roman&quot; , serif; font-size: 14pt; line-height: 21.4667px;\">Guá ê tshit-thô-mi̍h</span></b><br />\n<br />\n<div class=\"MsoNormal\">\n作者：<span style=\"font-family: &quot;times new roman&quot; , serif;\">Ko Ka-hui</span></div>\n<div class=\"MsoNormal\">\n<br /></div>\n<div class=\"MsoNormal\" style=\"text-indent: 22.5pt;\">\n<span lang=\"EN\" style=\"font-family: &quot;times new roman&quot; , &quot;serif&quot;; mso-ascii-theme-font: minor-bidi; mso-bidi-font-family: Arial; mso-hansi-theme-font: minor-bidi;\">Ē-kì-tit guá sè-hàn ê sî, guá ê a-pah kap a-bú lóng ē bé tsiok tsē hó-sńg ê tshit-thô-mi̍h-á hōo guá sńg, ū ang-á, kan-lo̍k, iah-sī hó-khuànn ê tsheh, koh-ū tsiok tsē hó-sńg ê iù-lia̍p-mi̍h. <o:p></o:p></span></div>\n<div class=\"MsoNormal\" style=\"text-indent: 22.5pt;\">\n<span lang=\"EN\" style=\"font-family: &quot;times new roman&quot; , &quot;serif&quot;; mso-ascii-theme-font: minor-bidi; mso-bidi-font-family: Arial; mso-hansi-theme-font: minor-bidi;\">Tiānn-tiānn thiann guán a-bú leh kóng: guá sè-hàn ê sî tsiok kuai--ê, i nā teh bô-îng, tō khe̍h hia-ê tshit-thô-mi̍h-á hōo guá sńg, guá lóng sńg kah tsin huann-hí, tsìm tī guá ê tshit-thô-mi̍h ê sè-kài lāi-té. <o:p></o:p></span></div>\n<div class=\"MsoNormal\" style=\"text-indent: 22.5pt;\">\n<span lang=\"EN\" style=\"font-family: &quot;times new roman&quot; , &quot;serif&quot;; mso-ascii-theme-font: minor-bidi; mso-bidi-font-family: Arial; mso-hansi-theme-font: minor-bidi;\">Tsit-má guá í-king tuā-hàn--ah, guá nā khuànn-tio̍h hia-ê puê-phuānn guá tuā-hàn ê tshit-thô-mi̍h-á, koh lóng ē siūnn-khí guá ê a-pah kap a-bú. Guá ē kè-sio̍k pó-tsûn hia-ê mi̍h-kiānn, hi-bāng tsia-ê tshit-thô-mi̍h-á lóng ē-tàng koh kè-sio̍k puê-phuānn--guá, in-uī he sī siōng bí-lē ê kì-tî, tshin-tshiūnn sī pó-tsûn a-pah kap a-bú tuì guá íng-uán ê ài, tse mā sī siōng pó-puè ê huê-ik--lah!<o:p></o:p></span></div>\n<br />"
+  },
+  "link": [
+    {
+      "rel": "edit",
+      "type": "application/atom+xml",
+      "href": "https://www.blogger.com/feeds/4940056489303246146/posts/default/6748509404503541546"
+    },
+    {
+      "rel": "self",
+      "type": "application/atom+xml",
+      "href": "https://www.blogger.com/feeds/4940056489303246146/posts/default/6748509404503541546"
+    },
+    {
+      "rel": "alternate",
+      "type": "text/html",
+      "href": "https://tsbp.tgb.org.tw/2015/01/gua-e-tshit-tho-mihe.html",
+      "title": "Guá ê tshit-thô-mi̍h（我ê𨑨迌物）（有聲♪）"
+    }
+  ],
+  "author": [
+    {
+      "name": {
+        "$t": "李江却台語文教基金會"
+      },
+      "uri": {
+        "$t": "http://www.blogger.com/profile/04803411121195812908"
+      },
+      "email": {
+        "$t": "noreply@blogger.com"
+      },
+      "gd$image": {
+        "rel": "http://schemas.google.com/g/2005#thumbnail",
+        "width": "16",
+        "height": "16",
+        "src": "https://img1.blogblog.com/img/b16-rounded.gif"
+      }
+    }
+  ],
+  "media$thumbnail": {
+    "xmlns$media": "http://search.yahoo.com/mrss/",
+    "url": "https://img.youtube.com/vi/yVhNQCtMa7Y/default.jpg",
+    "height": "72",
+    "width": "72"
+  }
+}

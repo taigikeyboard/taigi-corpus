@@ -1,0 +1,77 @@
+{
+  "id": {
+    "$t": "tag:blogger.com,1999:blog-4940056489303246146.post-7053492692061227029"
+  },
+  "published": {
+    "$t": "2013-05-10T22:10:00.000+08:00"
+  },
+  "updated": {
+    "$t": "2013-05-10T22:24:29.371+08:00"
+  },
+  "category": [
+    {
+      "scheme": "http://www.blogger.com/atom/ns#",
+      "term": "逐家來phò-tāu"
+    }
+  ],
+  "title": {
+    "type": "text",
+    "$t": "元宵節"
+  },
+  "content": {
+    "type": "html",
+    "$t": "<br />\n吳彥澤<br />\n<br />\n每年ê元宵節，阿公阿媽lóng ē tshuā我去看炸寒單，人tsiok濟，我mā是tsiⁿ到上頭前，差一點仔面就去hō͘炮仔pōng--著，規个面感覺tsha̍k-tsha̍k燒燒，驚去hō͘人pōng做貓仔面！緊走去後壁遠遠仔看，尾--à koh peh kuân去杆仔（kuaⁿ-á）頂看；Tsit擺有兩个查埔人kap一个查某人，上台去體驗hō͘炮仔pōng ê滋味，我感覺tsiok刺激--ê，mā想beh去試看māi，m̄-koh驚轉（tńg）--去hō͘人罵無起--去，真可惜！<br />\n<br />\n<div style=\"text-align: right;\">\n（作者是台東縣豐榮國小四年丙班ê學生；感謝陳美杏老師提供作品）</div>\n<div style=\"text-align: right;\">\n<br /></div>\n"
+  },
+  "link": [
+    {
+      "rel": "replies",
+      "type": "application/atom+xml",
+      "href": "https://tsbp.tgb.org.tw/feeds/7053492692061227029/comments/default",
+      "title": "張貼留言"
+    },
+    {
+      "rel": "replies",
+      "type": "text/html",
+      "href": "https://tsbp.tgb.org.tw/2013/05/blog-post_10.html#comment-form",
+      "title": "0 個意見"
+    },
+    {
+      "rel": "edit",
+      "type": "application/atom+xml",
+      "href": "https://www.blogger.com/feeds/4940056489303246146/posts/default/7053492692061227029"
+    },
+    {
+      "rel": "self",
+      "type": "application/atom+xml",
+      "href": "https://www.blogger.com/feeds/4940056489303246146/posts/default/7053492692061227029"
+    },
+    {
+      "rel": "alternate",
+      "type": "text/html",
+      "href": "https://tsbp.tgb.org.tw/2013/05/blog-post_10.html",
+      "title": "元宵節"
+    }
+  ],
+  "author": [
+    {
+      "name": {
+        "$t": "李江却台語文教基金會"
+      },
+      "uri": {
+        "$t": "http://www.blogger.com/profile/04803411121195812908"
+      },
+      "email": {
+        "$t": "noreply@blogger.com"
+      },
+      "gd$image": {
+        "rel": "http://schemas.google.com/g/2005#thumbnail",
+        "width": "16",
+        "height": "16",
+        "src": "https://img1.blogblog.com/img/b16-rounded.gif"
+      }
+    }
+  ],
+  "thr$total": {
+    "$t": "0"
+  }
+}

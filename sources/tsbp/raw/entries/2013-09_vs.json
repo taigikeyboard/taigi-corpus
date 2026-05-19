@@ -1,0 +1,81 @@
+{
+  "id": {
+    "$t": "tag:blogger.com,1999:blog-4940056489303246146.post-3692221547706369705"
+  },
+  "published": {
+    "$t": "2013-09-10T21:06:00.001+08:00"
+  },
+  "updated": {
+    "$t": "2013-09-10T21:17:41.637+08:00"
+  },
+  "category": [
+    {
+      "scheme": "http://www.blogger.com/atom/ns#",
+      "term": "做伙來唸詩"
+    },
+    {
+      "scheme": "http://www.blogger.com/atom/ns#",
+      "term": "詩"
+    }
+  ],
+  "title": {
+    "type": "text",
+    "$t": "八田V.S紅十字"
+  },
+  "content": {
+    "type": "html",
+    "$t": "陳冠君<br />\n<br />\n八田與一大怪人<br />\n<br />\n拖夢叫我提筆弄<br />\n<br />\n講伊日本來台灣<br />\n<br />\n一世人建設下港<br />\n<br />\n<a name='more'></a><br /><br />\n嘉南水圳紡tín動<br />\n<br />\n祖國suah來去投降<br />\n<br />\n伊mā身屍落塗空<br />\n<br />\n聽見伊死ê消息<br />\n<br />\nIn某無beh守（tsiú）空房<br />\n<br />\n跳入海水去揣翁<br />\n<br />\n數十年來in 雙人<br />\n<br />\n天堂地獄sì-kè航<br />\n<br />\n日子teh過lóng輕鬆<br />\n<br />\n忽然海龍王hah-hì<br />\n<br />\n日本福島大地動<br />\n<br />\n「三一一」三座核廠<br />\n<br />\n一瞬間tshun無半頃<br />\n<br />\n再次提醒lán眾人<br />\n<br />\n「非核家園」tsiah穩當<br />\n<br />\n尚且台灣大愛疼<br />\n<br />\n寄附賑災buē輸--人<br />\n<br />\n「紅十字會」竟目紅<br />\n<br />\n褲袋té燒m̄願放<br />\n<br />\n偷iap sai-khia &nbsp;tī銀行<br />\n<br />\n『不沾鍋』koh súi-tang-tang<br />\n<br />\n『泰戈爾』in 管錢項<br />\n<br />\n太可惡無序大人<br />\n<br />\n佳哉歹事傳千里<br />\n<br />\n傳到八田ê耳空<br />\n<br />\n想來想去buē 禁--得<br />\n<br />\n不管市府kap法院<br />\n<br />\n怎樣判決怎樣弄<br />\n<br />\n一通電話「紅十字」<br />\n<br />\n吐出in所食鐵銅"
+  },
+  "link": [
+    {
+      "rel": "replies",
+      "type": "application/atom+xml",
+      "href": "https://tsbp.tgb.org.tw/feeds/3692221547706369705/comments/default",
+      "title": "張貼留言"
+    },
+    {
+      "rel": "replies",
+      "type": "text/html",
+      "href": "https://tsbp.tgb.org.tw/2013/09/vs.html#comment-form",
+      "title": "0 個意見"
+    },
+    {
+      "rel": "edit",
+      "type": "application/atom+xml",
+      "href": "https://www.blogger.com/feeds/4940056489303246146/posts/default/3692221547706369705"
+    },
+    {
+      "rel": "self",
+      "type": "application/atom+xml",
+      "href": "https://www.blogger.com/feeds/4940056489303246146/posts/default/3692221547706369705"
+    },
+    {
+      "rel": "alternate",
+      "type": "text/html",
+      "href": "https://tsbp.tgb.org.tw/2013/09/vs.html",
+      "title": "八田V.S紅十字"
+    }
+  ],
+  "author": [
+    {
+      "name": {
+        "$t": "李江却台語文教基金會"
+      },
+      "uri": {
+        "$t": "http://www.blogger.com/profile/04803411121195812908"
+      },
+      "email": {
+        "$t": "noreply@blogger.com"
+      },
+      "gd$image": {
+        "rel": "http://schemas.google.com/g/2005#thumbnail",
+        "width": "16",
+        "height": "16",
+        "src": "https://img1.blogblog.com/img/b16-rounded.gif"
+      }
+    }
+  ],
+  "thr$total": {
+    "$t": "0"
+  }
+}

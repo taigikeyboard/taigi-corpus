@@ -1,0 +1,77 @@
+{
+  "id": {
+    "$t": "tag:blogger.com,1999:blog-4940056489303246146.post-4196449787801080804"
+  },
+  "published": {
+    "$t": "2014-11-19T12:57:00.001+08:00"
+  },
+  "updated": {
+    "$t": "2014-11-19T13:11:32.102+08:00"
+  },
+  "category": [
+    {
+      "scheme": "http://www.blogger.com/atom/ns#",
+      "term": "做伙來唸詩"
+    }
+  ],
+  "title": {
+    "type": "text",
+    "$t": "風──Hō͘張炎憲教授"
+  },
+  "content": {
+    "type": "html",
+    "$t": "◎杜信龍<br /><br />我看見風leh笑<br /> He是你招牌ê笑容<br /> 風，有影行kah淡薄沉重<br /> 因為未完成吹散hit个烏暗bông霧<br /> 驚tuè後壁ê人自án-ne失去方向<br /> Bē記得家己kap家己ê故鄉<br /><br />風mā是笑笑<br /> 是hiah-nī溫柔<br /> 風，知影伊有堅強ê一面<br /> 吹起飛沙<br /> 粒積起造hō͘ guán一堵牆<br /> 抵制橫霸sih-nà ê驚惶<br /> Tsiah bē嚇kah m̄知影<br /><br />　我是siáng，siáng是我<br /><br />我看見風leh笑<br /> 為何你ê招牌笑容藏tī內底<br /> 我beh kā你攬--leh　<br /><br />　Suah…<br /><br /><div>\n風就是你<br /> 笑笑ê你<br /> 隨風去<br /> 也永遠陪伴--guán<br /><br /><br /><span style=\"color: purple;\">註：寫tsit首詩hō͘ 10/3雄雄過身ê張教授，表達guán ê m̄甘，感謝教授hō͘ guán知影家己是台灣人。伊ê精神ē永遠留hō͘後世，台灣歷史mā ē一日過一日愈來愈光明。</span><span style=\"color: purple;\"><br /></span>\n<span style=\"color: purple;\"><br /></span>\n<br />\n<div style=\"text-align: center;\">\n<span style=\"font-size: x-small;\">= = = END = = =</span></div>\n</div>\n"
+  },
+  "link": [
+    {
+      "rel": "replies",
+      "type": "application/atom+xml",
+      "href": "https://tsbp.tgb.org.tw/feeds/4196449787801080804/comments/default",
+      "title": "張貼留言"
+    },
+    {
+      "rel": "replies",
+      "type": "text/html",
+      "href": "https://tsbp.tgb.org.tw/2014/11/ho.html#comment-form",
+      "title": "0 個意見"
+    },
+    {
+      "rel": "edit",
+      "type": "application/atom+xml",
+      "href": "https://www.blogger.com/feeds/4940056489303246146/posts/default/4196449787801080804"
+    },
+    {
+      "rel": "self",
+      "type": "application/atom+xml",
+      "href": "https://www.blogger.com/feeds/4940056489303246146/posts/default/4196449787801080804"
+    },
+    {
+      "rel": "alternate",
+      "type": "text/html",
+      "href": "https://tsbp.tgb.org.tw/2014/11/ho.html",
+      "title": "風──Hō͘張炎憲教授"
+    }
+  ],
+  "author": [
+    {
+      "name": {
+        "$t": "李江却台語文教基金會"
+      },
+      "uri": {
+        "$t": "http://www.blogger.com/profile/04803411121195812908"
+      },
+      "email": {
+        "$t": "noreply@blogger.com"
+      },
+      "gd$image": {
+        "rel": "http://schemas.google.com/g/2005#thumbnail",
+        "width": "16",
+        "height": "16",
+        "src": "https://img1.blogblog.com/img/b16-rounded.gif"
+      }
+    }
+  ],
+  "thr$total": {
+    "$t": "0"
+  }
+}

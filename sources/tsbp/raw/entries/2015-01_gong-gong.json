@@ -1,0 +1,72 @@
+{
+  "id": {
+    "$t": "tag:blogger.com,1999:blog-4940056489303246146.post-8399931844361954969"
+  },
+  "published": {
+    "$t": "2015-01-30T19:01:00.000+08:00"
+  },
+  "updated": {
+    "$t": "2018-09-13T16:17:01.569+08:00"
+  },
+  "category": [
+    {
+      "scheme": "http://www.blogger.com/atom/ns#",
+      "term": "做伙來唸詩"
+    },
+    {
+      "scheme": "http://www.blogger.com/atom/ns#",
+      "term": "有聲♪"
+    }
+  ],
+  "title": {
+    "type": "text",
+    "$t": "Gōng-gōng等"
+  },
+  "content": {
+    "type": "html",
+    "$t": "<div style=\"text-align: center;\">\n<iframe allow=\"autoplay; encrypted-media\" allowfullscreen=\"\" frameborder=\"0\" height=\"315\" src=\"https://www.youtube.com/embed/RJp20I5HeIk\" width=\"560\"></iframe><br /></div>\n<div class=\"MsoNormal\">\n<div style=\"text-align: center;\">\n<b><span lang=\"EN\" style=\"font-family: &quot;times new roman&quot; , &quot;serif&quot;; font-size: 14.0pt; line-height: 115%;\"><br />\n</span></b></div>\n</div>\n<br /><br />▍Gōng-gōng等<br /><br />作者：蔡雲雀<br /><br />一欉樹一透早gōng-gōng等一群鳥影<br /><br />一个魚池等待冬去春來ê魚影<br /><br />膨鼠等待春暖tī樹頭tsǹg來tsǹg去<br /><br />一pha路燈tī暗暝tshiō--leh<br /><br />Gōng-gōng等待月娘kap天星<br /><br />父母等待我細漢ê ǹg望<a href=\"https://www.blogger.com/null\"></a><br /><br />親像雲tī-leh等待日頭仝款<br /><br />Guán tī美人樹跤金金看<br /><br />等待花開花謝<br /><br />Suah等著山櫻花一phiàn ê粉紅<br /><br />不知gōng-gōng等--ê是guán<br /><br />Iah是he等待春天ê花欉<br />"
+  },
+  "link": [
+    {
+      "rel": "edit",
+      "type": "application/atom+xml",
+      "href": "https://www.blogger.com/feeds/4940056489303246146/posts/default/8399931844361954969"
+    },
+    {
+      "rel": "self",
+      "type": "application/atom+xml",
+      "href": "https://www.blogger.com/feeds/4940056489303246146/posts/default/8399931844361954969"
+    },
+    {
+      "rel": "alternate",
+      "type": "text/html",
+      "href": "https://tsbp.tgb.org.tw/2015/01/gong-gong.html",
+      "title": "Gōng-gōng等"
+    }
+  ],
+  "author": [
+    {
+      "name": {
+        "$t": "李江却台語文教基金會"
+      },
+      "uri": {
+        "$t": "http://www.blogger.com/profile/04803411121195812908"
+      },
+      "email": {
+        "$t": "noreply@blogger.com"
+      },
+      "gd$image": {
+        "rel": "http://schemas.google.com/g/2005#thumbnail",
+        "width": "16",
+        "height": "16",
+        "src": "https://img1.blogblog.com/img/b16-rounded.gif"
+      }
+    }
+  ],
+  "media$thumbnail": {
+    "xmlns$media": "http://search.yahoo.com/mrss/",
+    "url": "https://img.youtube.com/vi/RJp20I5HeIk/default.jpg",
+    "height": "72",
+    "width": "72"
+  }
+}

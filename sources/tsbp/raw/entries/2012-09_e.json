@@ -1,0 +1,81 @@
+{
+  "id": {
+    "$t": "tag:blogger.com,1999:blog-4940056489303246146.post-1894643682035056969"
+  },
+  "published": {
+    "$t": "2012-09-30T10:00:00.000+08:00"
+  },
+  "updated": {
+    "$t": "2012-09-30T10:44:24.200+08:00"
+  },
+  "category": [
+    {
+      "scheme": "http://www.blogger.com/atom/ns#",
+      "term": "台灣人寫真"
+    },
+    {
+      "scheme": "http://www.blogger.com/atom/ns#",
+      "term": "散文"
+    }
+  ],
+  "title": {
+    "type": "text",
+    "$t": "失去聲音ê人 "
+  },
+  "content": {
+    "type": "html",
+    "$t": "<b id=\"internal-source-marker_0.5449147827457637\" style=\"font-weight: normal;\"><span style=\"font-family: 'Times New Roman'; font-size: 16px; vertical-align: baseline; white-space: pre-wrap;\">陳金花</span></b><br />\n<b style=\"font-weight: normal;\"><span style=\"font-family: 'Times New Roman'; font-size: 16px; vertical-align: baseline; white-space: pre-wrap;\"><br /></span></b>\n<b style=\"font-weight: normal;\"><span style=\"font-family: 'Times New Roman'; font-size: 16px; vertical-align: baseline; white-space: pre-wrap;\">Ing暗去倒pùn-sò ê時，kap平常時相siâng teh等pùn-sò車來，hit个時間，我看著有真濟人kā準備回收ê mi̍h件，lok tī一跤大跤袋仔內，hit跤白色ê袋仔已經kō kah烏tsia̍uh-tsia̍uh--ah，hông吊tī路邊tshāi交通標誌ê篙仔 。</span></b><br />\n<a name='more'></a><span style=\"font-family: 'Times New Roman'; font-size: 16px; vertical-align: baseline; white-space: pre-wrap;\"><br /></span>\n<span style=\"font-family: 'Times New Roman'; font-size: 16px; vertical-align: baseline; white-space: pre-wrap;\">我kap厝邊阿綸已經真久無看--ê，拄好趁tàn pùn-sò soh有thang見面，pùn-sò車走了後，guán koh leh開講ê時，有一个中年人騎一台破破 ê o͘-tó͘-bái ，雄雄狂狂來到地，用真扭掠ê動作kā囥tī路邊ê回收mi̍h khioh-khioh--leh lok入hit跤白色ê大跤袋仔內。阿綸mā beh kā in兜ê回收mi̍h hō͘ hit个人，我看in二个人比手劃刀m̄知leh講啥？好親像是講玻璃物伊無愛，m-koh ē替阿綸提去tàn；原來伊是一个é-káu仔，聽阿綸講伊無法度食頭路，kan-na靠khioh回收mi̍h飼一个老母過生活。</span><br />\n<b style=\"font-weight: normal;\"><span style=\"font-family: 'Times New Roman'; font-size: 16px; vertical-align: baseline; white-space: pre-wrap;\">\n</span></b>\n<b style=\"font-weight: normal;\"><span style=\"font-family: 'Times New Roman'; font-size: 16px; vertical-align: baseline; white-space: pre-wrap;\">看著tsit幕，我ê心有兩樣情，一个是感心伊有孝，一个是感概伊可憐；一个失去聲音ê人，tī M 型社會ê趨勢--裡，用上卑微方法度日子，伊無正式ê頭路，伊是社會ê弱勢者，伊繼續恬恬bē出聲。雖然上天hō͘伊「無法度出聲」，kám講tī當今人民是主人ê社會，伊也無代言者？天無助，人無路，tsit个失去聲音ê人，suah是認份koh勤快，khioh每一个人基本ê同情心，hō͘伊得著淡薄仔生路；社會ê人一屑仔用心就有可能救伊ê生活，若是政府ke關心弱勢者，kám是koh-khah應該替tsit个失去聲音ê人tshiâu-tshi̍k--leh？</span></b>"
+  },
+  "link": [
+    {
+      "rel": "replies",
+      "type": "application/atom+xml",
+      "href": "https://tsbp.tgb.org.tw/feeds/1894643682035056969/comments/default",
+      "title": "張貼留言"
+    },
+    {
+      "rel": "replies",
+      "type": "text/html",
+      "href": "https://tsbp.tgb.org.tw/2012/09/e.html#comment-form",
+      "title": "0 個意見"
+    },
+    {
+      "rel": "edit",
+      "type": "application/atom+xml",
+      "href": "https://www.blogger.com/feeds/4940056489303246146/posts/default/1894643682035056969"
+    },
+    {
+      "rel": "self",
+      "type": "application/atom+xml",
+      "href": "https://www.blogger.com/feeds/4940056489303246146/posts/default/1894643682035056969"
+    },
+    {
+      "rel": "alternate",
+      "type": "text/html",
+      "href": "https://tsbp.tgb.org.tw/2012/09/e.html",
+      "title": "失去聲音ê人 "
+    }
+  ],
+  "author": [
+    {
+      "name": {
+        "$t": "李江却台語文教基金會"
+      },
+      "uri": {
+        "$t": "http://www.blogger.com/profile/04803411121195812908"
+      },
+      "email": {
+        "$t": "noreply@blogger.com"
+      },
+      "gd$image": {
+        "rel": "http://schemas.google.com/g/2005#thumbnail",
+        "width": "16",
+        "height": "16",
+        "src": "https://img1.blogblog.com/img/b16-rounded.gif"
+      }
+    }
+  ],
+  "thr$total": {
+    "$t": "0"
+  }
+}

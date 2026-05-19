@@ -1,0 +1,72 @@
+{
+  "id": {
+    "$t": "tag:blogger.com,1999:blog-4940056489303246146.post-3879230958565631338"
+  },
+  "published": {
+    "$t": "2015-01-30T19:03:00.000+08:00"
+  },
+  "updated": {
+    "$t": "2018-09-19T14:14:10.571+08:00"
+  },
+  "category": [
+    {
+      "scheme": "http://www.blogger.com/atom/ns#",
+      "term": "心內話"
+    },
+    {
+      "scheme": "http://www.blogger.com/atom/ns#",
+      "term": "有聲♪"
+    }
+  ],
+  "title": {
+    "type": "text",
+    "$t": "勇敢做你愛！"
+  },
+  "content": {
+    "type": "html",
+    "$t": "<div style=\"text-align: center;\">\n<iframe allow=\"autoplay; encrypted-media\" allowfullscreen=\"\" frameborder=\"0\" height=\"315\" src=\"https://www.youtube.com/embed/rL7x2swuOcQ?ecver=1\" width=\"560\"></iframe></div>\n<div style=\"text-align: center;\">\n<br /></div>\n<div style=\"text-align: left;\">\n▍勇敢做你愛！</div>\n<br />\n作者：<span style=\"font-family: 新細明體, serif; font-size: 11pt;\">陳俐雯</span><br />\n<span style=\"font-family: 新細明體, serif; font-size: 11pt;\"><br /></span>\n親愛--ê：<br /><br />M̄-thang為著「愛」結婚，mā m̄-thang為著「情」改變，因為有一工你ē發現，你熟sāi ê愛ē tī時間ê車輪下恬恬仔走tsing；你所ǹg望ê愛ē因為現實生活ê透lām產生質變。<br /><br />看khah開--leh，因為緣起緣滅；看khah輕--leh，因為世事皆無常。<br /><br />Tsit个世間上無情ê考驗是時間，「愛」koh-khah深mā ē薄--去，「情」koh-khah厚mā ē斷sē，分秒lóng是無常ê翼股。<br /><br /> 人生短短，愛家己需要智慧，時間無長，做真正ê家己ài有膽量〜勇敢做你愛！"
+  },
+  "link": [
+    {
+      "rel": "edit",
+      "type": "application/atom+xml",
+      "href": "https://www.blogger.com/feeds/4940056489303246146/posts/default/3879230958565631338"
+    },
+    {
+      "rel": "self",
+      "type": "application/atom+xml",
+      "href": "https://www.blogger.com/feeds/4940056489303246146/posts/default/3879230958565631338"
+    },
+    {
+      "rel": "alternate",
+      "type": "text/html",
+      "href": "https://tsbp.tgb.org.tw/2015/01/blog-post_34.html",
+      "title": "勇敢做你愛！"
+    }
+  ],
+  "author": [
+    {
+      "name": {
+        "$t": "李江却台語文教基金會"
+      },
+      "uri": {
+        "$t": "http://www.blogger.com/profile/04803411121195812908"
+      },
+      "email": {
+        "$t": "noreply@blogger.com"
+      },
+      "gd$image": {
+        "rel": "http://schemas.google.com/g/2005#thumbnail",
+        "width": "16",
+        "height": "16",
+        "src": "https://img1.blogblog.com/img/b16-rounded.gif"
+      }
+    }
+  ],
+  "media$thumbnail": {
+    "xmlns$media": "http://search.yahoo.com/mrss/",
+    "url": "https://img.youtube.com/vi/rL7x2swuOcQ/default.jpg",
+    "height": "72",
+    "width": "72"
+  }
+}

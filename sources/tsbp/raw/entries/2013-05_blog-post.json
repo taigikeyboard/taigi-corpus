@@ -1,0 +1,77 @@
+{
+  "id": {
+    "$t": "tag:blogger.com,1999:blog-4940056489303246146.post-3854935053969910375"
+  },
+  "published": {
+    "$t": "2013-05-10T22:07:00.000+08:00"
+  },
+  "updated": {
+    "$t": "2013-05-10T22:24:29.368+08:00"
+  },
+  "category": [
+    {
+      "scheme": "http://www.blogger.com/atom/ns#",
+      "term": "詩"
+    }
+  ],
+  "title": {
+    "type": "text",
+    "$t": "核電五段"
+  },
+  "content": {
+    "type": "html",
+    "$t": "<br />\n何信翰<br />\n<br />\n一：勇敢ê台灣人<br />\n<br />\nBē--lah，若正經hiah危險，怎樣tsiah-nī濟人leh用？<br />\nBē--lah，he是美國、蘇聯kap日本，<br />\n台灣ê科技比in long khah先進，<br />\n台灣人拜拜捐廟mā比阿tok仔khah虔誠，<br />\nBē像in仝款出代誌--lah<br />\n<br />\n<a name='more'></a><br /><br />\n二：高貴ê台灣人<br />\n<br />\n核廢料就囥tī蘭嶼、運去北韓，<br />\n橫直已經hō͘ in補償金，<br />\n咱有sio̍k ê電thang用khah重要<br />\nTsia-ê番仔、落伍國家ê人，<br />\n死就準煞，<br />\n免管in ê死活--lah！<br />\n<br />\n三：勤儉ê台灣人<br />\n<br />\n既然已經khai hiah濟錢--ah，<br />\n無起hō͘好無彩！<br />\n聽講若是停建，<br />\n電價ē起，<br />\n股票ē lak兩千點，<br />\n我看，也是tio̍h hō͘起！<br />\n<br />\n啥mi̍h？台灣厚地動，<br />\n可能ē危險？<br />\n啥mi̍h？核四廠ê施工無斟酌，<br />\n可能ē出代誌？<br />\n啥mi̍h？萬一輻射外洩，<br />\n雙北lóng變做死城？<br />\n啥mi̍h？核能電廠ê用地，<br />\n幾百年內lóng bē-tàng koh使用？<br />\n核廢料ê處理也是大問題？<br />\n<br />\n無差--lah，我看也是tio̍h hō͘起！<br />\n橫直，咱台灣人愛錢無愛命，<br />\n看眼前ê小利，無看未來ê大代價<br />\n早就m̄是一、兩日ê代誌……<br />\n<br />\n四：安份守己ê台灣人<br />\n<br />\n有理有理，咱tio̍h保護家己ê囝孫！<br />\n有理有理，咱tio̍h疼惜台灣tsit塊土地！<br />\n啥mi̍h？反核ê貼紙beh hō͘我貼？<br />\n反核ê標語beh hō͘我提轉去分？<br />\n無--lah！我是有支持，<br />\nM̄-koh，guán ê學校、guán ê公司、guán ê厝--裡，<br />\nLóng無希望我講政治……。<br />\n<br />\n五：幸福ê台灣人<br />\n<br />\n台電有in ê專業，<br />\n政府beh án-ni做一定也有伊ê道理，<br />\n咱m̄-thang為反對來反對。<br />\n只要乖乖聽政府ê話，<br />\n在伊舞、在伊pìⁿ，<br />\n啥mi̍h lóng免想，啥mi̍h lóng免驚<br />\n咱一定ē-tàng做一个<br />\n&nbsp; 幸福ê台灣人<br />\n<div>\n<br /></div>\n"
+  },
+  "link": [
+    {
+      "rel": "replies",
+      "type": "application/atom+xml",
+      "href": "https://tsbp.tgb.org.tw/feeds/3854935053969910375/comments/default",
+      "title": "張貼留言"
+    },
+    {
+      "rel": "replies",
+      "type": "text/html",
+      "href": "https://tsbp.tgb.org.tw/2013/05/blog-post.html#comment-form",
+      "title": "0 個意見"
+    },
+    {
+      "rel": "edit",
+      "type": "application/atom+xml",
+      "href": "https://www.blogger.com/feeds/4940056489303246146/posts/default/3854935053969910375"
+    },
+    {
+      "rel": "self",
+      "type": "application/atom+xml",
+      "href": "https://www.blogger.com/feeds/4940056489303246146/posts/default/3854935053969910375"
+    },
+    {
+      "rel": "alternate",
+      "type": "text/html",
+      "href": "https://tsbp.tgb.org.tw/2013/05/blog-post.html",
+      "title": "核電五段"
+    }
+  ],
+  "author": [
+    {
+      "name": {
+        "$t": "李江却台語文教基金會"
+      },
+      "uri": {
+        "$t": "http://www.blogger.com/profile/04803411121195812908"
+      },
+      "email": {
+        "$t": "noreply@blogger.com"
+      },
+      "gd$image": {
+        "rel": "http://schemas.google.com/g/2005#thumbnail",
+        "width": "16",
+        "height": "16",
+        "src": "https://img1.blogblog.com/img/b16-rounded.gif"
+      }
+    }
+  ],
+  "thr$total": {
+    "$t": "0"
+  }
+}
