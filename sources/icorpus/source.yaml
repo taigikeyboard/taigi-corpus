@@ -1,0 +1,10 @@
+source_id: icorpus
+source_name: "台華平行新聞語料庫 (中研院 陳孟彰)"
+source_url: "http://icorpus.iis.sinica.edu.tw/"
+license: "CC-BY-NC-SA-4.0"
+license_notes: "Non-commercial use; ShareAlike under same license; attribution required to: Academia Sinica Institute of Information Science, Dr. Meng-Chang Chen (中央研究院資訊科學研究所 陳孟彰研究員)."
+copyright_holder: "Academia Sinica Institute of Information Science, Dr. Meng-Chang Chen"
+contact: ""
+language: "nan-Hant-TW"
+default_script: "lo"
+description: "3,266 parallel Taiwanese-Mandarin news articles (2009-08 to 2016-06, 83,544 sentence pairs). Taiwanese uses numerical POJ; Mandarin is word-segmented; line-aligned. Frozen 2018-07 GitHub snapshot (sih4sing5hong5/icorpus) released by Academia Sinica. `make build-icorpus` re-fetches in full."
