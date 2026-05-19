@@ -1,0 +1,10 @@
+source_id: ungian_guliau_supin
+source_name: "楊允言 2005 NSC Project (Taiwanese Written Corpus)"
+source_url: "https://github.com/Taiwanese-Corpus/Ungian_2005_guliau-supin"
+license: "unknown"
+license_notes: "Upstream GitHub repo has no LICENSE file. Aggregates works by 1,293 authors spanning 1885-2007 (台文通訊, 台文罔報, TGB 通訊, academic monographs, Barclay 1885 Bible translation, etc.); copyright remains with the original authors. Verify per-author authorization before any commercial or training use. Aggregator: Un Iong-gian (NSC 93-2213-E-122-001)."
+copyright_holder: "Various original authors; aggregated by Un Iong-gian (楊允言)"
+contact: ""
+language: "nan-Hant-TW"
+default_script: "hanlo"
+description: "5,208 Taiwanese articles from Un Iong-gian's 2005 NSC project 'Collection of Taiwanese Written Corpus and Corpus-Based Syllable/Word Frequency Statistics'. HL (Han-Lo) 3,810 articles + POJ (numerical romanization) 1,398 articles. Frozen 2018-09 GitHub snapshot; the scraper downloads master.tar.gz, extracts both CSVs and all .txt files. `make build-ungian_guliau_supin` re-fetches in full."
