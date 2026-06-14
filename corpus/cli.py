@@ -1,10 +1,11 @@
-"""CLI: `corpus list | build <id>|--all | stats <id>|--all`."""
+"""CLI: `corpus list | build <id>|--all | stats <id>|--all | manifest`."""
 
 import argparse
 import json
 import logging
 from pathlib import Path
 
+from corpus.manifest import build_manifest
 from corpus.pipeline import ingest_source, load_source, write_jsonl
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
@@ -52,8 +53,10 @@ def cmd_build(args):
 
 
 def cmd_stats(args):
-    sids = [d.name for d in _iter_source_dirs()] if args.all else (
-        [args.source_id] if args.source_id else []
+    sids = (
+        [d.name for d in _iter_source_dirs()]
+        if args.all
+        else ([args.source_id] if args.source_id else [])
     )
     if not sids:
         raise SystemExit("Specify a source_id or pass --all")
@@ -77,6 +80,14 @@ def cmd_stats(args):
         print(f"{'TOTAL':<30} {total_docs:>8,} docs  {total_chars:>14,} chars")
 
 
+def cmd_manifest(_args):
+    manifest = build_manifest(NORMALIZED_DIR, SOURCES_DIR)
+    out_path = NORMALIZED_DIR / "manifest.json"
+    out_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    totals = manifest["totals"]
+    print(f"Wrote {out_path.name}: {totals['source_count']} sources, {totals['doc_count']:,} docs")
+
+
 def main():
     logging.basicConfig(
         level=logging.INFO, format="%(asctime)s %(levelname)s %(name)s: %(message)s"
@@ -95,6 +106,10 @@ def main():
     stats.add_argument("source_id", nargs="?")
     stats.add_argument("--all", action="store_true")
     stats.set_defaults(func=cmd_stats)
+
+    sub.add_parser(
+        "manifest", help="Write data/normalized/manifest.json (per-source genre/license/counts)"
+    ).set_defaults(func=cmd_manifest)
 
     args = p.parse_args()
     args.func(args)

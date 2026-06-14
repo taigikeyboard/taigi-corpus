@@ -7,4 +7,5 @@ copyright_holder: "Various original authors; aggregated by Un Iong-gian (楊允�
 contact: ""
 language: "nan-Hant-TW"
 default_script: "hanlo"
+genre: "prose"
 description: "5,208 Taiwanese articles from Un Iong-gian's 2005 NSC project 'Collection of Taiwanese Written Corpus and Corpus-Based Syllable/Word Frequency Statistics'. HL (Han-Lo) 3,810 articles + POJ (numerical romanization) 1,398 articles. Frozen 2018-09 GitHub snapshot; the scraper downloads master.tar.gz, extracts both CSVs and all .txt files. `make build-ungian_guliau_supin` re-fetches in full."

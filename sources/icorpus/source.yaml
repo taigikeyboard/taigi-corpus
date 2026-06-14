@@ -7,4 +7,5 @@ copyright_holder: "Academia Sinica Institute of Information Science, Dr. Meng-Ch
 contact: ""
 language: "nan-Hant-TW"
 default_script: "lo"
+genre: "news"
 description: "3,266 parallel Taiwanese-Mandarin news articles (2009-08 to 2016-06, 83,544 sentence pairs). Taiwanese uses numerical POJ; Mandarin is word-segmented; line-aligned. Frozen 2018-07 GitHub snapshot (sih4sing5hong5/icorpus) released by Academia Sinica. `make build-icorpus` re-fetches in full."

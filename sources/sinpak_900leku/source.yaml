@@ -7,4 +7,5 @@ copyright_holder: "新北市政府教育局 (104學年度閩南語字音字形90
 contact: ""
 language: "nan-Hant-TW"
 default_script: "han"
+genre: "example_sentence"
 description: "896 Taiwanese example sentences from the 新北市 2015 字音字形 workshop. Each entry carries 例句漢字 (text), 例句臺羅 (metadata.parallel_poj), and the 詞條漢字 headword it illustrates (title). Built from the upstream minnan900.json snapshot. `make build-sinpak_900leku` re-fetches in full."

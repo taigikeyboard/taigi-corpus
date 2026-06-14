@@ -1,0 +1,497 @@
+{
+  "manifest_schema_version": 1,
+  "totals": {
+    "source_count": 19,
+    "doc_count": 377006,
+    "char_count": 54192579,
+    "size_bytes": 463057686,
+    "docs_by_genre": {
+      "dictionary": 334383,
+      "unknown": 24608,
+      "news": 3266,
+      "terminology": 3366,
+      "prose": 10562,
+      "example_sentence": 821
+    },
+    "docs_by_license_category": {
+      "non_commercial": 190994,
+      "permissive": 22753,
+      "no_derivatives": 54214,
+      "share_alike": 98483,
+      "unknown": 10562
+    }
+  },
+  "sources": [
+    {
+      "source_id": "chhoetaigi_embree",
+      "source_name": "1973 Embree 台英辭典 (via ChhoeTaigi)",
+      "source_url": "https://github.com/Taiwanese-Corpus/Bernard-L.M.-Embree_1973_A-Dictionary-of-Southern-Min",
+      "genre": "dictionary",
+      "license": "CC-BY-NC-SA-3.0-TW",
+      "license_category": "non_commercial",
+      "license_restrictions": [
+        "non_commercial",
+        "share_alike",
+        "attribution"
+      ],
+      "license_notes": "https://creativecommons.org/licenses/by-nc-sa/3.0/tw/  禁商業用途",
+      "file_name": "chhoetaigi_embree.jsonl",
+      "scripts": {
+        "lo": 36734
+      },
+      "doc_count": 36734,
+      "char_count": 1777912,
+      "parallel_poj_count": 0,
+      "parallel_poj_pct": 0.0,
+      "parallel_zh_count": 0,
+      "parallel_zh_pct": 0.0,
+      "size_bytes": 36926411,
+      "file_sha256": "sha256:60422572dfcb96744fa54bf9260b0b74b32a9fd129ca4df77713c80f2e3a5e0b"
+    },
+    {
+      "source_id": "chhoetaigi_itaigi",
+      "source_name": "2016+ iTaigi 華台對照典 (via ChhoeTaigi)",
+      "source_url": "https://itaigi.tw/",
+      "genre": "dictionary",
+      "license": "CC0-1.0",
+      "license_category": "permissive",
+      "license_restrictions": [],
+      "license_notes": "https://creativecommons.org/publicdomain/zero/1.0/  公眾領域貢獻宣告，無限制",
+      "file_name": "chhoetaigi_itaigi.jsonl",
+      "scripts": {
+        "hanlo": 19775
+      },
+      "doc_count": 19775,
+      "char_count": 224119,
+      "parallel_poj_count": 0,
+      "parallel_poj_pct": 0.0,
+      "parallel_zh_count": 0,
+      "parallel_zh_pct": 0.0,
+      "size_bytes": 17444379,
+      "file_sha256": "sha256:99bdc8667684a6bdfb7beaa2779e8f23ffd2254347a66d08e7a62084cfa858ec"
+    },
+    {
+      "source_id": "chhoetaigi_kam",
+      "source_name": "1913 甘字典 (廈門音新字典, via ChhoeTaigi)",
+      "source_url": "http://taigi.fhl.net/dick/",
+      "genre": "dictionary",
+      "license": "CC-BY-NC-SA-3.0-TW",
+      "license_category": "non_commercial",
+      "license_restrictions": [
+        "non_commercial",
+        "share_alike",
+        "attribution"
+      ],
+      "license_notes": "https://creativecommons.org/licenses/by-nc-sa/3.0/tw/  禁商業用途",
+      "file_name": "chhoetaigi_kam.jsonl",
+      "scripts": {
+        "hanlo": 24367
+      },
+      "doc_count": 24367,
+      "char_count": 713802,
+      "parallel_poj_count": 0,
+      "parallel_poj_pct": 0.0,
+      "parallel_zh_count": 0,
+      "parallel_zh_pct": 0.0,
+      "size_bytes": 22830699,
+      "file_sha256": "sha256:6ad686c619bb337f39b66004689e2a3320f5cf67be8e4443999df9b0ae060897"
+    },
+    {
+      "source_id": "chhoetaigi_maryknoll",
+      "source_name": "1976 Maryknoll 台英辭典 (via ChhoeTaigi)",
+      "source_url": "http://www.taiwanesedictionary.org/",
+      "genre": "dictionary",
+      "license": "CC-BY-NC-SA-3.0-TW",
+      "license_category": "non_commercial",
+      "license_restrictions": [
+        "non_commercial",
+        "share_alike",
+        "attribution"
+      ],
+      "license_notes": "https://creativecommons.org/licenses/by-nc-sa/3.0/tw/  禁商業用途",
+      "file_name": "chhoetaigi_maryknoll.jsonl",
+      "scripts": {
+        "lo": 55903
+      },
+      "doc_count": 55903,
+      "char_count": 3295471,
+      "parallel_poj_count": 0,
+      "parallel_poj_pct": 0.0,
+      "parallel_zh_count": 0,
+      "parallel_zh_pct": 0.0,
+      "size_bytes": 54052681,
+      "file_sha256": "sha256:842c839bb0be099780868f37320f837480987b8cc237388926b5df75331481a3"
+    },
+    {
+      "source_id": "chhoetaigi_moe",
+      "source_name": "2011+ 教育部臺灣閩南語常用詞辭典 (via ChhoeTaigi)",
+      "source_url": "https://twblg.dict.edu.tw/holodict_new/index.html",
+      "genre": "unknown",
+      "license": "CC-BY-ND-3.0-TW",
+      "license_category": "no_derivatives",
+      "license_restrictions": [
+        "no_derivatives",
+        "attribution"
+      ],
+      "license_notes": "https://creativecommons.org/licenses/by-nd/3.0/tw/  禁改作。⚠️ 訓練模型可能算衍生作品，正式發佈/商用前須評估法律風險。",
+      "file_name": "chhoetaigi_moe.jsonl",
+      "scripts": {
+        "hanlo": 24608
+      },
+      "doc_count": 24608,
+      "char_count": 1589306,
+      "parallel_poj_count": 0,
+      "parallel_poj_pct": 0.0,
+      "parallel_zh_count": 0,
+      "parallel_zh_pct": 0.0,
+      "size_bytes": 27478733,
+      "file_sha256": "sha256:b90f87f1b51bc48af2c1f567c41642e6763cb86777c280c911eb6367e0a7dede"
+    },
+    {
+      "source_id": "chhoetaigi_pehoe",
+      "source_name": "1956 台灣白話基礎語句 (via ChhoeTaigi)",
+      "source_url": "http://ip194097.ntcu.edu.tw/memory/TGB/thak.asp?id=862",
+      "genre": "dictionary",
+      "license": "CC-BY-SA-4.0",
+      "license_category": "share_alike",
+      "license_restrictions": [
+        "share_alike",
+        "attribution"
+      ],
+      "license_notes": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "file_name": "chhoetaigi_pehoe.jsonl",
+      "scripts": {
+        "lo": 5429
+      },
+      "doc_count": 5429,
+      "char_count": 313381,
+      "parallel_poj_count": 0,
+      "parallel_poj_pct": 0.0,
+      "parallel_zh_count": 0,
+      "parallel_zh_pct": 0.0,
+      "size_bytes": 5416470,
+      "file_sha256": "sha256:ffa5107b6f4225ad70fe4cbed0a8670d170bb3922745dec314eeb784698f01a5"
+    },
+    {
+      "source_id": "chhoetaigi_sitbut",
+      "source_name": "1928 台灣植物名彙 (via ChhoeTaigi)",
+      "source_url": "http://ip194097.ntcu.edu.tw/memory/TGB/thak.asp?id=59",
+      "genre": "dictionary",
+      "license": "CC-BY-SA-4.0",
+      "license_category": "share_alike",
+      "license_restrictions": [
+        "share_alike",
+        "attribution"
+      ],
+      "license_notes": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "file_name": "chhoetaigi_sitbut.jsonl",
+      "scripts": {
+        "hanlo": 1722
+      },
+      "doc_count": 1722,
+      "char_count": 4994,
+      "parallel_poj_count": 0,
+      "parallel_poj_pct": 0.0,
+      "parallel_zh_count": 0,
+      "parallel_zh_pct": 0.0,
+      "size_bytes": 1574627,
+      "file_sha256": "sha256:eb47afddd051925e1f4bc5e52b4f051c631b5a78f6b48c534bba57633ab90852"
+    },
+    {
+      "source_id": "chhoetaigi_taihoa",
+      "source_name": "2002+ 台華線頂對照典 (via ChhoeTaigi)",
+      "source_url": "http://ip194097.ntcu.edu.tw/ungian/soannteng/chil/Taihoa.asp",
+      "genre": "dictionary",
+      "license": "CC-BY-SA-4.0",
+      "license_category": "share_alike",
+      "license_restrictions": [
+        "share_alike",
+        "attribution"
+      ],
+      "license_notes": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "file_name": "chhoetaigi_taihoa.jsonl",
+      "scripts": {
+        "hanlo": 91332
+      },
+      "doc_count": 91332,
+      "char_count": 908090,
+      "parallel_poj_count": 0,
+      "parallel_poj_pct": 0.0,
+      "parallel_zh_count": 0,
+      "parallel_zh_pct": 0.0,
+      "size_bytes": 81904254,
+      "file_sha256": "sha256:927520726370bf77bfbf6198ca2963294d223c19602eb587f3999049911ac2f5"
+    },
+    {
+      "source_id": "chhoetaigi_taijit",
+      "source_name": "1932 台日大辭典 (台譯版, via ChhoeTaigi)",
+      "source_url": "http://taigi.fhl.net/dict/",
+      "genre": "dictionary",
+      "license": "CC-BY-NC-SA-3.0-TW",
+      "license_category": "non_commercial",
+      "license_restrictions": [
+        "non_commercial",
+        "share_alike",
+        "attribution"
+      ],
+      "license_notes": "https://creativecommons.org/licenses/by-nc-sa/3.0/tw/  禁商業用途",
+      "file_name": "chhoetaigi_taijit.jsonl",
+      "scripts": {
+        "hanlo": 69515
+      },
+      "doc_count": 69515,
+      "char_count": 1757538,
+      "parallel_poj_count": 0,
+      "parallel_poj_pct": 0.0,
+      "parallel_zh_count": 0,
+      "parallel_zh_pct": 0.0,
+      "size_bytes": 65140206,
+      "file_sha256": "sha256:77b49df93c8cf6a3da60bf4e7774498c0a14d3024c1dd802789d1df089756241"
+    },
+    {
+      "source_id": "icorpus",
+      "source_name": "台華平行新聞語料庫 (中研院 陳孟彰)",
+      "source_url": "http://icorpus.iis.sinica.edu.tw/",
+      "genre": "news",
+      "license": "CC-BY-NC-SA-4.0",
+      "license_category": "non_commercial",
+      "license_restrictions": [
+        "non_commercial",
+        "share_alike",
+        "attribution"
+      ],
+      "license_notes": "非商業用途；改作須以相同方式分享；須標示授權人：中央研究院資訊科學研究所 陳孟彰研究員。",
+      "file_name": "icorpus.jsonl",
+      "scripts": {
+        "lo": 3266
+      },
+      "doc_count": 3266,
+      "char_count": 4857347,
+      "parallel_poj_count": 0,
+      "parallel_poj_pct": 0.0,
+      "parallel_zh_count": 3266,
+      "parallel_zh_pct": 100.0,
+      "size_bytes": 12047293,
+      "file_sha256": "sha256:58c9486bdbfed5821baaf13f77a8d2d3cebdf196c8976cbce67f9d148af5d230"
+    },
+    {
+      "source_id": "kanggesu",
+      "source_name": "台語工藝詞庫 (國立臺灣工藝研究發展中心)",
+      "source_url": "https://kanggesu.ntcri.gov.tw/NTCRI_TaigiWebSite",
+      "genre": "terminology",
+      "license": "CC-BY-NC",
+      "license_category": "non_commercial",
+      "license_restrictions": [
+        "non_commercial",
+        "attribution"
+      ],
+      "license_notes": "禁商業用途；須註明出處：國立臺灣工藝研究發展中心。",
+      "file_name": "kanggesu.jsonl",
+      "scripts": {
+        "hanlo": 1209
+      },
+      "doc_count": 1209,
+      "char_count": 122371,
+      "parallel_poj_count": 0,
+      "parallel_poj_pct": 0.0,
+      "parallel_zh_count": 0,
+      "parallel_zh_pct": 0.0,
+      "size_bytes": 1400555,
+      "file_sha256": "sha256:5e071618e6611581ecc47b4250fc6a505a8a81ba78c91325cc6088333ffa817c"
+    },
+    {
+      "source_id": "khinhoan_pojbh",
+      "source_name": "台灣白話字文獻館 (POJ Bûn-hiàn-koán, NTNU)",
+      "source_url": "http://pojbh.lib.ntnu.edu.tw/",
+      "genre": "prose",
+      "license": "unknown",
+      "license_category": "unknown",
+      "license_restrictions": [
+        "unknown"
+      ],
+      "license_notes": "Upstream README states the database is released under a Creative Commons license but does not specify the version (cc.org.tw page linked). Main text owned by 數位典藏國家型科技計畫 and 國立臺灣師範大學 台灣文化及語言文學研究所; verify the specific CC variant with the upstream site before commercial or training use.",
+      "file_name": "khinhoan_pojbh.jsonl",
+      "scripts": {
+        "hanlo": 2733
+      },
+      "doc_count": 2733,
+      "char_count": 3431276,
+      "parallel_poj_count": 2732,
+      "parallel_poj_pct": 100.0,
+      "parallel_zh_count": 0,
+      "parallel_zh_pct": 0.0,
+      "size_bytes": 25864162,
+      "file_sha256": "sha256:e3f0197c6d28e80620d7833652635389ae1e2ba99cc617ea189ba6f1e771b960"
+    },
+    {
+      "source_id": "kok4hau7",
+      "source_name": "國校仔課本 (國小台語課本)",
+      "source_url": "https://github.com/Taiwanese-Corpus/kok4hau7-kho3pun2",
+      "genre": "prose",
+      "license": "unknown",
+      "license_category": "unknown",
+      "license_restrictions": [
+        "unknown"
+      ],
+      "license_notes": "Upstream GitHub repo (Taiwanese-Corpus/kok4hau7-kho3pun2) has no LICENSE file. Textbook content is copyright of the respective publishers (翰林/康軒/真平/安可/巧兒); files compiled by 楊允言. Verify per-publisher authorization before commercial or training use.",
+      "file_name": "kok4hau7.jsonl",
+      "scripts": {
+        "han": 367
+      },
+      "doc_count": 367,
+      "char_count": 26653,
+      "parallel_poj_count": 367,
+      "parallel_poj_pct": 100.0,
+      "parallel_zh_count": 0,
+      "parallel_zh_pct": 0.0,
+      "size_bytes": 639421,
+      "file_sha256": "sha256:261c4b6a4e41e3129fa7cb0ca88558735ac67304301df2e6ee6fd5ef30f232ec"
+    },
+    {
+      "source_id": "moe_kautian",
+      "source_name": "教育部臺灣台語常用詞辭典 (sutian.moe.edu.tw)",
+      "source_url": "https://sutian.moe.edu.tw/zh-hant/",
+      "genre": "dictionary",
+      "license": "CC-BY-ND-3.0-TW",
+      "license_category": "no_derivatives",
+      "license_restrictions": [
+        "no_derivatives",
+        "attribution"
+      ],
+      "license_notes": "教育部官方版權聲明明示採用 https://creativecommons.org/licenses/by-nd/3.0/tw/ ，毋須另外申請授權。詳見 https://sutian.moe.edu.tw/zh-hant/piantsip/pankhuan-singbing/ 。⚠️ BY-ND 禁衍生；訓練模型 / 正式發佈前須評估法律風險。",
+      "file_name": "moe_kautian.jsonl",
+      "scripts": {
+        "hanlo": 29606
+      },
+      "doc_count": 29606,
+      "char_count": 2527881,
+      "parallel_poj_count": 0,
+      "parallel_poj_pct": 0.0,
+      "parallel_zh_count": 0,
+      "parallel_zh_pct": 0.0,
+      "size_bytes": 35556794,
+      "file_sha256": "sha256:d897f90d72abe7af17c1e2647a12f84a88bd0b24e761d65f2b2d7c0956c31240"
+    },
+    {
+      "source_id": "nmtl_dadwt",
+      "source_name": "台語文數位典藏資料庫 (NMTL DADWT)",
+      "source_url": "http://xdcm.nmtl.gov.tw/dadwt/pbk.asp",
+      "genre": "prose",
+      "license": "unknown",
+      "license_category": "unknown",
+      "license_restrictions": [
+        "unknown"
+      ],
+      "license_notes": "Upstream GitHub repo (Taiwanese-Corpus/nmtl_2006_dadwt) has no LICENSE file. Compiled by the National Museum of Taiwan Literature (NMTL). Spans authors from 1885 to the modern era; copyright remains with the original authors or their estates. Verify per-author authorization before any commercial or training use.",
+      "file_name": "nmtl_dadwt.jsonl",
+      "scripts": {
+        "hanlo": 2167
+      },
+      "doc_count": 2167,
+      "char_count": 4485119,
+      "parallel_poj_count": 2167,
+      "parallel_poj_pct": 100.0,
+      "parallel_zh_count": 0,
+      "parallel_zh_pct": 0.0,
+      "size_bytes": 24940421,
+      "file_sha256": "sha256:91d958a2cdfa12e4def4f39d167c73f239f216486c58adfc7f75d3ba6b16cd4d"
+    },
+    {
+      "source_id": "pts_taigitv",
+      "source_name": "公視台語台 新詞辭典",
+      "source_url": "https://www.taigitv.org.tw/taigi-words",
+      "genre": "terminology",
+      "license": "CC-BY-4.0",
+      "license_category": "permissive",
+      "license_restrictions": [
+        "attribution"
+      ],
+      "license_notes": "https://creativecommons.org/licenses/by/4.0/  須註明出處：公視台語台。",
+      "file_name": "pts_taigitv.jsonl",
+      "scripts": {
+        "hanlo": 2157
+      },
+      "doc_count": 2157,
+      "char_count": 61528,
+      "parallel_poj_count": 0,
+      "parallel_poj_pct": 0.0,
+      "parallel_zh_count": 0,
+      "parallel_zh_pct": 0.0,
+      "size_bytes": 2005476,
+      "file_sha256": "sha256:6577e14df15f29b319b3a3916a5d80a5a71fa5d11bc319a723198f1d3b2ad638"
+    },
+    {
+      "source_id": "sinpak_900leku",
+      "source_name": "新北市 900例句 (104學年度字音字形工作坊)",
+      "source_url": "https://github.com/Taiwanese-Corpus/Sin1pak8tshi7_2015_900-le7ku3",
+      "genre": "example_sentence",
+      "license": "MIT",
+      "license_category": "permissive",
+      "license_restrictions": [
+        "attribution"
+      ],
+      "license_notes": "Upstream repo (Taiwanese-Corpus/Sin1pak8tshi7_2015_900-le7ku3) declares an MIT LICENSE. MIT covers the repo compilation; example-sentence content originates from the 新北市政府教育局 104學年度閩南語字音字形 900例句工作坊. Verify content provenance before commercial use.",
+      "file_name": "sinpak_900leku.jsonl",
+      "scripts": {
+        "han": 821
+      },
+      "doc_count": 821,
+      "char_count": 10710,
+      "parallel_poj_count": 821,
+      "parallel_poj_pct": 100.0,
+      "parallel_zh_count": 0,
+      "parallel_zh_pct": 0.0,
+      "size_bytes": 1057964,
+      "file_sha256": "sha256:5a73ddc108f9e72a57c4e86084b30cab594b6b13071bf702a7a2eec0078fb163"
+    },
+    {
+      "source_id": "tsbp",
+      "source_name": "台文通訊BONG報",
+      "source_url": "https://tsbp.tgb.org.tw",
+      "genre": "prose",
+      "license": "unknown",
+      "license_category": "unknown",
+      "license_restrictions": [
+        "unknown"
+      ],
+      "license_notes": "需聯絡編輯部確認再次利用授權；目前先以研究用途收錄，正式發佈前須取得授權。",
+      "file_name": "tsbp.jsonl",
+      "scripts": {
+        "hanlo": 88
+      },
+      "doc_count": 88,
+      "char_count": 102815,
+      "parallel_poj_count": 0,
+      "parallel_poj_pct": 0.0,
+      "parallel_zh_count": 0,
+      "parallel_zh_pct": 0.0,
+      "size_bytes": 311935,
+      "file_sha256": "sha256:41450546fc69b595cdf8a9944820adfd2172ac760c3f63d6df38684d28be4172"
+    },
+    {
+      "source_id": "ungian_guliau_supin",
+      "source_name": "楊允言 2005 國科會計畫 (台語文語料庫蒐集)",
+      "source_url": "https://github.com/Taiwanese-Corpus/Ungian_2005_guliau-supin",
+      "genre": "prose",
+      "license": "unknown",
+      "license_category": "unknown",
+      "license_restrictions": [
+        "unknown"
+      ],
+      "license_notes": "GitHub repo 無 LICENSE 檔。彙整 1,293 位作者 1885~2007 的作品 (台文通訊、台文罔報、TGB 通訊、學者專書、Barclay 1885 聖經譯本等)，著作權仍歸各原作者所有；商業或訓練用途請使用者自行確認授權。彙整者：楊允言 (NSC 93-2213-E-122-001)。",
+      "file_name": "ungian_guliau_supin.jsonl",
+      "scripts": {
+        "hanlo": 3810,
+        "lo": 1397
+      },
+      "doc_count": 5207,
+      "char_count": 27982266,
+      "parallel_poj_count": 0,
+      "parallel_poj_pct": 0.0,
+      "parallel_zh_count": 0,
+      "parallel_zh_pct": 0.0,
+      "size_bytes": 46465205,
+      "file_sha256": "sha256:77f29fb3994b812515cf985ba0f9b0ad83f25b0b039af1f83249afa73961b122"
+    }
+  ]
+}

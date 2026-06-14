@@ -7,4 +7,5 @@ copyright_holder: "各出版社 (翰林/康軒/真平/安可/巧兒); 楊允言 
 contact: ""
 language: "nan-Hant-TW"
 default_script: "han"
+genre: "prose"
 description: "367 elementary-school Taiwanese textbook lessons across 60 volumes from five publishers (翰林/康軒/真平/安可/巧兒). Each lesson carries line-aligned 漢字 (text) and 台羅 (metadata.parallel_poj) versions. Built from the upstream JSON snapshot (tarball). `make build-kok4hau7` re-fetches in full."

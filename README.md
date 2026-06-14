@@ -5,12 +5,16 @@ heterogeneous sources (HTML / ODS / CSV / JSON / TAR) into normalized
 JSONL with full per-document metadata (source, license, copyright,
 URL, language, script, provenance).
 
-**351,210 documents** across 16 sources. Snapshot of `data/normalized/`
-is versioned in this repo. Four sources carry **parallel data**:
-icorpus (83,544 TW↔ZH sentence pairs), nmtl_dadwt (64,281 Han-Lo↔POJ
-paragraph pairs in POJ-numerical), khinhoan_pojbh (37,984 Han-Lo↔POJ
-paragraph pairs in POJ-diacritic), and ungian_guliau_supin (separate
-HL and POJ subsets).
+**352,398 documents** across 18 sources (plus one orphan file,
+`chhoetaigi_moe.jsonl`, 24,608 docs with no `sources/` folder — see Sources).
+Snapshot of `data/normalized/` is versioned in this repo.
+[`data/normalized/manifest.json`](data/normalized/manifest.json) is the
+machine-readable catalog (genre, license class, counts, sha per source) —
+regenerate with `uv run corpus manifest`.
+
+Several sources carry **parallel data**: icorpus (TW↔ZH sentence pairs),
+nmtl_dadwt / khinhoan_pojbh / kok4hau7 / sinpak_900leku (Han↔POJ/台羅 in
+`metadata.parallel_poj`), and ungian_guliau_supin (separate HL and POJ subsets).
 
 ## Quick start
 
@@ -49,8 +53,49 @@ upstream and replaces the raw cache; only the latest snapshot is kept.
 | pts_taigitv          | 公視台語台 新詞辭典             | JSON   | 2,157       | CC-BY-4.0           |
 | chhoetaigi_sitbut    | 1928 台灣植物名彙               | CSV    | 1,722       | CC-BY-SA-4.0        |
 | kanggesu             | 台語工藝詞庫                    | JSON   | 1,209       | CC-BY-NC            |
+| sinpak_900leku       | 新北市 900例句                  | JSON   | 821         | MIT                 |
+| kok4hau7             | 國校仔課本 (國小台語課本)        | TAR    | 367         | unknown             |
 | tsbp                 | 台文通訊BONG報                  | HTML   | 88          | unknown             |
-| **TOTAL**            |                               |        | **351,210** |                     |
+| **TOTAL**            |                               |        | **352,398** |                     |
+
+Genre and license class per source live in
+[`data/normalized/manifest.json`](data/normalized/manifest.json), not this table.
+
+**Orphan**: `data/normalized/chhoetaigi_moe.jsonl` (24,608 docs, CC-BY-ND-3.0-TW)
+has no `sources/chhoetaigi_moe/` folder — it cannot be rebuilt and overlaps
+`moe_kautian`. It still appears in the manifest (`genre: unknown`); resolve
+(re-add ingester or drop) before relying on it.
+
+## Manifest & licensing
+
+`uv run corpus manifest` writes [`data/normalized/manifest.json`](data/normalized/manifest.json) —
+one row per normalized file so downstream consumers can select sources by
+genre, license, or script without scanning the corpus. Per row: `genre`,
+`license`, `license_category`, `license_restrictions`, `license_notes`,
+`scripts` (per-script doc counts), doc/char counts, parallel-field coverage,
+`size_bytes`, `file_sha256`.
+
+**Genre** (the register axis for training selection) — one per source:
+`prose` (LM pretraining), `dictionary`, `terminology`, `news`,
+`example_sentence`, `unknown`. Genre is source-level; join on `source_id`.
+
+**License class** is derived from each doc's `license`. `license_category` is
+the single headline bucket; `license_restrictions` lists every obligation a
+single label hides (e.g. CC-BY-NC-SA = `non_commercial` + `share_alike` +
+`attribution`). Document totals:
+
+| license_category | docs    | notes |
+|------------------|--------:|-------|
+| non_commercial   | 190,994 | NC — no commercial training |
+| share_alike      |  98,483 | CC-BY-SA — output must share-alike |
+| no_derivatives   |  54,214 | CC-BY-ND — training as a derivative is legally unsettled |
+| permissive       |  22,753 | CC0 / CC-BY / MIT |
+| unknown          |  10,562 | rights unverified |
+
+Only ~32% (permissive + share_alike) is comfortably training-usable; filter on
+`license_category` / `license_restrictions` before use. `permissive` does not
+override per-source `license_notes` (e.g. sinpak_900leku is MIT but flags
+content provenance).
 
 ## Upstream
 
@@ -63,6 +108,8 @@ upstream and replaces the raw cache; only the latest snapshot is kept.
 - `ungian_guliau_supin` — full `master.tar.gz` from [Taiwanese-Corpus/Ungian_2005_guliau-supin](https://github.com/Taiwanese-Corpus/Ungian_2005_guliau-supin)
 - `nmtl_dadwt` — pre-built `nmtl.json` from [Taiwanese-Corpus/nmtl_2006_dadwt](https://github.com/Taiwanese-Corpus/nmtl_2006_dadwt) (NMTL)
 - `khinhoan_pojbh` — pre-built `pojbh.json` from [Taiwanese-Corpus/Khin-hoan_2010_pojbh](https://github.com/Taiwanese-Corpus/Khin-hoan_2010_pojbh) (NTNU 白話字文獻館)
+- `kok4hau7` — repo `master.tar.gz` from [Taiwanese-Corpus/kok4hau7-kho3pun2](https://github.com/Taiwanese-Corpus/kok4hau7-kho3pun2); `JSON格式資料/**/*.json` extracted in memory
+- `sinpak_900leku` — pre-built `minnan900.json` from [Taiwanese-Corpus/Sin1pak8tshi7_2015_900-le7ku3](https://github.com/Taiwanese-Corpus/Sin1pak8tshi7_2015_900-le7ku3)
 
 ## Parallel data
 

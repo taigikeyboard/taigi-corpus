@@ -17,6 +17,18 @@ class Script(str, Enum):
     UNKNOWN = "unknown"
 
 
+class Genre(str, Enum):
+    """Text genre of a source — the key axis for downstream selection
+    (e.g. prose for LM pretraining vs dictionary for lexical tasks)."""
+
+    DICTIONARY = "dictionary"
+    PROSE = "prose"
+    EXAMPLE_SENTENCE = "example_sentence"
+    TERMINOLOGY = "terminology"
+    NEWS = "news"
+    UNKNOWN = "unknown"
+
+
 class SourceMetadata(BaseModel):
     """Source-level metadata. Loaded from `sources/<id>/source.yaml`."""
 
@@ -31,6 +43,7 @@ class SourceMetadata(BaseModel):
     contact: str = ""
     language: str = "nan-Hant-TW"
     default_script: Script = Script.UNKNOWN
+    genre: Genre = Genre.UNKNOWN
     description: str = ""
 
 

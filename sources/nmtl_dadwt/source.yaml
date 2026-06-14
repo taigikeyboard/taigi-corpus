@@ -7,4 +7,5 @@ copyright_holder: "Various original authors; compiled by National Museum of Taiw
 contact: ""
 language: "nan-Hant-TW"
 default_script: "hanlo"
+genre: "prose"
 description: "2,167 Taiwanese literary works archived by NMTL in the DADWT project. Each article carries paragraph-aligned Han-Lo (漢羅) and POJ (全羅, numerical romanization) versions of the same text. Frozen 2018-07 GitHub snapshot of the pre-built nmtl.json. `make build-nmtl_dadwt` re-fetches in full."
