@@ -1,13 +1,12 @@
 {
   "manifest_schema_version": 1,
   "totals": {
-    "source_count": 19,
-    "doc_count": 377006,
-    "char_count": 54192579,
-    "size_bytes": 463057686,
+    "source_count": 18,
+    "doc_count": 352398,
+    "char_count": 52603273,
+    "size_bytes": 435578953,
     "docs_by_genre": {
       "dictionary": 334383,
-      "unknown": 24608,
       "news": 3266,
       "terminology": 3366,
       "prose": 10562,
@@ -16,9 +15,9 @@
     "docs_by_license_category": {
       "non_commercial": 190994,
       "permissive": 22753,
-      "no_derivatives": 54214,
       "share_alike": 98483,
-      "unknown": 10562
+      "unknown": 10562,
+      "no_derivatives": 29606
     }
   },
   "sources": [
@@ -121,31 +120,6 @@
       "parallel_zh_pct": 0.0,
       "size_bytes": 54052681,
       "file_sha256": "sha256:842c839bb0be099780868f37320f837480987b8cc237388926b5df75331481a3"
-    },
-    {
-      "source_id": "chhoetaigi_moe",
-      "source_name": "2011+ 教育部臺灣閩南語常用詞辭典 (via ChhoeTaigi)",
-      "source_url": "https://twblg.dict.edu.tw/holodict_new/index.html",
-      "genre": "unknown",
-      "license": "CC-BY-ND-3.0-TW",
-      "license_category": "no_derivatives",
-      "license_restrictions": [
-        "no_derivatives",
-        "attribution"
-      ],
-      "license_notes": "https://creativecommons.org/licenses/by-nd/3.0/tw/  禁改作。⚠️ 訓練模型可能算衍生作品，正式發佈/商用前須評估法律風險。",
-      "file_name": "chhoetaigi_moe.jsonl",
-      "scripts": {
-        "hanlo": 24608
-      },
-      "doc_count": 24608,
-      "char_count": 1589306,
-      "parallel_poj_count": 0,
-      "parallel_poj_pct": 0.0,
-      "parallel_zh_count": 0,
-      "parallel_zh_pct": 0.0,
-      "size_bytes": 27478733,
-      "file_sha256": "sha256:b90f87f1b51bc48af2c1f567c41642e6763cb86777c280c911eb6367e0a7dede"
     },
     {
       "source_id": "chhoetaigi_pehoe",

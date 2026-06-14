@@ -5,8 +5,7 @@ heterogeneous sources (HTML / ODS / CSV / JSON / TAR) into normalized
 JSONL with full per-document metadata (source, license, copyright,
 URL, language, script, provenance).
 
-**352,398 documents** across 18 sources (plus one orphan file,
-`chhoetaigi_moe.jsonl`, 24,608 docs with no `sources/` folder — see Sources).
+**352,398 documents** across 18 sources.
 Snapshot of `data/normalized/` is versioned in this repo.
 [`data/normalized/manifest.json`](data/normalized/manifest.json) is the
 machine-readable catalog (genre, license class, counts, sha per source) —
@@ -61,11 +60,6 @@ upstream and replaces the raw cache; only the latest snapshot is kept.
 Genre and license class per source live in
 [`data/normalized/manifest.json`](data/normalized/manifest.json), not this table.
 
-**Orphan**: `data/normalized/chhoetaigi_moe.jsonl` (24,608 docs, CC-BY-ND-3.0-TW)
-has no `sources/chhoetaigi_moe/` folder — it cannot be rebuilt and overlaps
-`moe_kautian`. It still appears in the manifest (`genre: unknown`); resolve
-(re-add ingester or drop) before relying on it.
-
 ## Manifest & licensing
 
 `uv run corpus manifest` writes [`data/normalized/manifest.json`](data/normalized/manifest.json) —
@@ -88,11 +82,11 @@ single label hides (e.g. CC-BY-NC-SA = `non_commercial` + `share_alike` +
 |------------------|--------:|-------|
 | non_commercial   | 190,994 | NC — no commercial training |
 | share_alike      |  98,483 | CC-BY-SA — output must share-alike |
-| no_derivatives   |  54,214 | CC-BY-ND — training as a derivative is legally unsettled |
+| no_derivatives   |  29,606 | CC-BY-ND — training as a derivative is legally unsettled |
 | permissive       |  22,753 | CC0 / CC-BY / MIT |
 | unknown          |  10,562 | rights unverified |
 
-Only ~32% (permissive + share_alike) is comfortably training-usable; filter on
+Only ~34% (permissive + share_alike) is comfortably training-usable; filter on
 `license_category` / `license_restrictions` before use. `permissive` does not
 override per-source `license_notes` (e.g. sinpak_900leku is MIT but flags
 content provenance).
