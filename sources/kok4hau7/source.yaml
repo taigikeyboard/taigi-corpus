@@ -1,0 +1,10 @@
+source_id: kok4hau7
+source_name: "國校仔課本 (國小台語課本)"
+source_url: "https://github.com/Taiwanese-Corpus/kok4hau7-kho3pun2"
+license: "unknown"
+license_notes: "Upstream GitHub repo (Taiwanese-Corpus/kok4hau7-kho3pun2) has no LICENSE file. Textbook content is copyright of the respective publishers (翰林/康軒/真平/安可/巧兒); files compiled by 楊允言. Verify per-publisher authorization before commercial or training use."
+copyright_holder: "各出版社 (翰林/康軒/真平/安可/巧兒); 楊允言 整理"
+contact: ""
+language: "nan-Hant-TW"
+default_script: "han"
+description: "367 elementary-school Taiwanese textbook lessons across 60 volumes from five publishers (翰林/康軒/真平/安可/巧兒). Each lesson carries line-aligned 漢字 (text) and 台羅 (metadata.parallel_poj) versions. Built from the upstream JSON snapshot (tarball). `make build-kok4hau7` re-fetches in full."

@@ -1,0 +1,10 @@
+source_id: sinpak_900leku
+source_name: "新北市 900例句 (104學年度字音字形工作坊)"
+source_url: "https://github.com/Taiwanese-Corpus/Sin1pak8tshi7_2015_900-le7ku3"
+license: "MIT"
+license_notes: "Upstream repo (Taiwanese-Corpus/Sin1pak8tshi7_2015_900-le7ku3) declares an MIT LICENSE. MIT covers the repo compilation; example-sentence content originates from the 新北市政府教育局 104學年度閩南語字音字形 900例句工作坊. Verify content provenance before commercial use."
+copyright_holder: "新北市政府教育局 (104學年度閩南語字音字形900例句工作坊)"
+contact: ""
+language: "nan-Hant-TW"
+default_script: "han"
+description: "896 Taiwanese example sentences from the 新北市 2015 字音字形 workshop. Each entry carries 例句漢字 (text), 例句臺羅 (metadata.parallel_poj), and the 詞條漢字 headword it illustrates (title). Built from the upstream minnan900.json snapshot. `make build-sinpak_900leku` re-fetches in full."
