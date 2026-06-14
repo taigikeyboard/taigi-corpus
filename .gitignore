@@ -220,3 +220,6 @@ __marimo__/
 # Claude Code local session state
 .claude/
 
+
+# On-demand training exports (derived, not committed)
+data/export/

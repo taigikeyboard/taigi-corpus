@@ -91,6 +91,45 @@ Only ~34% (permissive + share_alike) is comfortably training-usable; filter on
 override per-source `license_notes` (e.g. sinpak_900leku is MIT but flags
 content provenance).
 
+## Training
+
+`corpus export` materializes a filtered, training-ready JSONL on demand —
+selection happens by `genre` / `license-category` / `script`, output lands in
+the gitignored `data/export/` (the full corpus stays per-source; nothing large
+is committed).
+
+```bash
+# commercially-usable text only (no NC / ND / unknown)
+uv run corpus export --license-category permissive,share_alike --text-only
+# running prose for LM pretraining (any license)
+uv run corpus export --genre prose -o data/export/prose.jsonl
+```
+
+`--text-only` emits `{id, source_id, text}`; otherwise full documents are
+copied. Or read the per-source files directly and filter via the manifest:
+
+```python
+import json
+manifest = json.load(open("data/normalized/manifest.json"))
+usable = [s["file_name"] for s in manifest["sources"]
+          if s["license_category"] in ("permissive", "share_alike")]
+# stream usable files; each line is one Document (text + metadata + provenance)
+```
+
+**Caveat for trainers**: the training-permissive subset (~121k docs) is almost
+entirely **dictionary** entries; the running **prose** (nmtl_dadwt, khinhoan_pojbh,
+ungian_guliau_supin, tsbp, kok4hau7 — the best LM-pretraining material) is all
+`license: unknown`. Resolve rights with the upstream holders before training on
+prose.
+
+## Storage limits
+
+`data/normalized/*.jsonl` is committed plain (inspectable, streamable). The
+largest file (`chhoetaigi_taihoa`, ~82 MB) is under GitHub's 100 MB hard limit;
+`corpus build` warns past 90 MB. If a source crosses it, move
+`data/normalized/*.jsonl` to [Git LFS](https://git-lfs.com/)
+(`git lfs track "data/normalized/*.jsonl"`) rather than merging or dropping data.
+
 ## Upstream
 
 - `chhoetaigi_*` — sibling clone of [ChhoeTaigiDatabase](https://github.com/ChhoeTaigi/ChhoeTaigiDatabase) (`$CHHOETAIGI_DB_PATH` or `../ChhoeTaigiDatabase`)
