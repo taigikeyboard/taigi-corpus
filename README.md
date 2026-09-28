@@ -47,6 +47,7 @@ upstream and replaces the raw cache; only the latest snapshot is kept.
 | chhoetaigi_pehoe     | 1956 台灣白話基礎語句           | CSV    | 5,429       | CC-BY-SA-4.0        |
 | ungian_guliau_supin  | 2005 楊允言 NSC 台語文語料庫    | TAR    | 5,207       | unknown             |
 | kipsupin_2009        | 2009 教育部字詞頻調查語料       | TAR    | 4,469       | unknown             |
+| tsbp                 | 台文通訊BONG報 (2012-2026)      | HTML   | 2,265       | unknown             |
 | icorpus              | 台華平行新聞語料庫 (中研院)      | JSON   | 3,266       | CC-BY-NC-SA-4.0     |
 | icorpus_hanji        | iCorpus 漢字臺羅版 (薛丞宏)      | TAR    | 2,559       | CC-BY-4.0           |
 | khinhoan_pojbh       | 台灣白話字文獻館 (NTNU)          | JSON   | 2,733       | unknown             |
@@ -58,8 +59,7 @@ upstream and replaces the raw cache; only the latest snapshot is kept.
 | sinpak_900leku       | 新北市 900例句                  | JSON   | 821         | MIT                 |
 | taigi_bible_nt       | 新約臺語聖經三譯本              | TAR    | 780         | unknown             |
 | kok4hau7             | 國校仔課本 (國小台語課本)        | TAR    | 367         | unknown             |
-| tsbp                 | 台文通訊BONG報                  | HTML   | 88          | unknown             |
-| **TOTAL**            |                               |        | **361,221** |                     |
+| **TOTAL**            |                               |        | **363,398** |                     |
 
 Genre and license class per source live in
 [`data/normalized/manifest.json`](data/normalized/manifest.json), not this table.

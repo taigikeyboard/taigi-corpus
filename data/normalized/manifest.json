@@ -2,21 +2,21 @@
   "manifest_schema_version": 1,
   "totals": {
     "source_count": 22,
-    "doc_count": 361221,
-    "char_count": 59410290,
-    "size_bytes": 485914423,
+    "doc_count": 363398,
+    "char_count": 63562759,
+    "size_bytes": 496932359,
     "docs_by_genre": {
       "dictionary": 334383,
       "news": 5825,
       "terminology": 3366,
-      "prose": 16826,
+      "prose": 19003,
       "example_sentence": 821
     },
     "docs_by_license_category": {
       "non_commercial": 190994,
       "permissive": 25312,
       "share_alike": 98483,
-      "unknown": 16826,
+      "unknown": 19003,
       "no_derivatives": 29606
     }
   },
@@ -527,16 +527,16 @@
       "license_notes": "需聯絡編輯部確認再次利用授權；目前先以研究用途收錄，正式發佈前須取得授權。",
       "file_name": "tsbp.jsonl",
       "scripts": {
-        "hanlo": 88
+        "hanlo": 2265
       },
-      "doc_count": 88,
-      "char_count": 102815,
+      "doc_count": 2265,
+      "char_count": 4255284,
       "parallel_poj_count": 0,
       "parallel_poj_pct": 0.0,
       "parallel_zh_count": 0,
       "parallel_zh_pct": 0.0,
-      "size_bytes": 311935,
-      "file_sha256": "sha256:41450546fc69b595cdf8a9944820adfd2172ac760c3f63d6df38684d28be4172"
+      "size_bytes": 11329871,
+      "file_sha256": "sha256:a161a8e8a4ce678ea6848a8204fafc4659590a4089b027ce5ecf4ddf837202e5"
     },
     {
       "source_id": "ungian_guliau_supin",

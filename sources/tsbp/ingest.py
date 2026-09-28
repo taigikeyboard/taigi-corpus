@@ -3,8 +3,8 @@
 Each Blogger feed entry is cached as `raw/entries/<slug>.json` (one file per
 post). The filesystem is the state: presence of the file means we've already
 seen that entry. On each run we walk the feed from `start-index=1` and stop
-as soon as a full page contains zero new entries — which means a normal
-incremental run only hits 1 page if nothing has changed.
+at an empty page, or at a page with zero new entries once the cache holds as
+many posts as the feed reports — so a normal incremental run hits 1 page.
 
 First run after the original implementation: legacy `raw/feed_page_*.json`
 files are split into per-entry files (one-time migration). Legacy page files
@@ -35,7 +35,7 @@ FEED_URL = "https://tsbp.tgb.org.tw/feeds/posts/default"
 MAX_PER_PAGE = 150
 FETCH_DELAY = 1.5
 ISSUE_LABEL_RE = re.compile(r"台文通訊BONG報(\d+)期")
-EXTRACTOR_VERSION = "sources.tsbp.ingest@v2"
+EXTRACTOR_VERSION = "sources.tsbp.ingest@v3"
 PROCESSOR_VERSION = "corpus.parsers.html@v1"
 
 
@@ -140,12 +140,15 @@ def _fetch_incremental(entries_dir: Path) -> tuple[int, int]:
             total_new += new_on_page
             logger.info("  %d/%d new on page", new_on_page, len(page_entries))
 
-            if new_on_page == 0:
-                logger.info("Page fully cached; incremental cut-off reached")
+            # Blogger caps a page below max-results, so a short page is not the end.
+            # A fully cached page only ends the walk once the cache holds every post;
+            # otherwise older posts missed by an earlier run are still ahead.
+            feed_total = int(data["feed"]["openSearch$totalResults"]["$t"])
+            cached = sum(1 for _ in entries_dir.glob("*.json"))
+            if new_on_page == 0 and cached >= feed_total:
+                logger.info("Page fully cached and cache complete (%d/%d)", cached, feed_total)
                 break
 
-            if len(page_entries) < MAX_PER_PAGE:
-                break
             start_index += len(page_entries)
             time.sleep(FETCH_DELAY)
 
