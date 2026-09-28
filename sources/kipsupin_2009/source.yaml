@@ -1,0 +1,11 @@
+source_id: kipsupin_2009
+source_name: "教育部臺灣閩南語字詞頻調查工作語料 (2009, 楊允言)"
+source_url: "https://github.com/Taiwanese-Corpus/Ungian_2009_KIPsupin"
+license: "unknown"
+license_notes: "Upstream GitHub repo (Taiwanese-Corpus/Ungian_2009_KIPsupin) has no LICENSE file. Texts were collected for the Ministry of Education character and word frequency survey (楊允言, 2009); copyright stays with the original authors and publishers. Verify per-work authorization before any commercial or training use."
+copyright_holder: "Various original authors and publishers; compiled by 楊允言 for the Ministry of Education"
+contact: ""
+language: "nan-Hant-TW"
+default_script: "hanlo"
+genre: "prose"
+description: "1,093 Taiwanese works (4,469 pieces, ~59.6k paragraph pairs) collected for the 2009 Ministry of Education character and word frequency survey: folk tales, textbooks, prose, fiction, 歌仔冊, 褒歌, reportage, speeches, drama. Each piece carries paragraph-aligned Han / Han-Lo text and numeric-tone romanization. Frozen 2018-07 upstream. `make build-kipsupin_2009` re-fetches in full."
