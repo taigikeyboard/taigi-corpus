@@ -59,7 +59,8 @@ upstream and replaces the raw cache; only the latest snapshot is kept.
 | sinpak_900leku       | 新北市 900例句                  | JSON   | 821         | MIT                 |
 | taigi_bible_nt       | 新約臺語聖經三譯本              | TAR    | 780         | unknown             |
 | kok4hau7             | 國校仔課本 (國小台語課本)        | TAR    | 367         | unknown             |
-| **TOTAL**            |                               |        | **363,398** |                     |
+| taigi_typing         | 台語文拍字練習 文章             | JS     | 35          | unknown             |
+| **TOTAL**            |                               |        | **363,433** |                     |
 
 Genre and license class per source live in
 [`data/normalized/manifest.json`](data/normalized/manifest.json), not this table.
@@ -164,6 +165,7 @@ metadata field.
 | khinhoan_pojbh      | Han-Lo ↔ POJ-diacritic              | paragraph   |  37,984 | `metadata.parallel_poj` |
 | taigi_bible_nt      | Han-Lo ↔ POJ-diacritic              | verse       |  23,822 | `metadata.parallel_poj` |
 | tgb_tongsin         | Han-Lo ↔ Mandarin (not aligned)     | article     |   1,015 | `metadata.parallel_zh`  |
+| taigi_typing        | Han ↔ Tâi-lô-diacritic (10 of 35)   | line        |      88 | `metadata.parallel_poj` |
 | ungian_guliau_supin | Han-Lo + POJ-numerical (not aligned) | —           |     —   | (separate `subset:HL` / `subset:POJ` docs) |
 
 Within a parallel record, line N of `text` corresponds to line N of

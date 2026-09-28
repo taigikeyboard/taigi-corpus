@@ -1,0 +1,11 @@
+source_id: taigi_typing
+source_name: "台語文拍字練習 文章 (luke871016/taigi_typing)"
+source_url: "https://github.com/luke871016/taigi_typing"
+license: "unknown"
+license_notes: "Upstream README: article texts belong to their original authors and may be used only inside that typing-practice page; the page code is CC0. Recorded for provenance; verify with each author before redistribution."
+copyright_holder: "Each article's author (陳建中, 張寶明, 盧廣誠, 李勤岸, 温若喬, 陳豐惠, ...)"
+contact: ""
+language: "nan-Hant-TW"
+default_script: "hanlo"
+genre: "prose"
+description: "35 modern Taiwanese articles, poems and short prose collected for a typing-practice page; 10 carry line-aligned Han and Tâi-lô versions, 25 are a single text in Han, Han-Lo or Tâi-lô. The page's 教典 example sentences are not ingested (same data as moe_kautian). `make build-taigi_typing` re-fetches in full."

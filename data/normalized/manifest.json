@@ -1,22 +1,22 @@
 {
   "manifest_schema_version": 1,
   "totals": {
-    "source_count": 22,
-    "doc_count": 363398,
-    "char_count": 63562759,
-    "size_bytes": 496932359,
+    "source_count": 23,
+    "doc_count": 363433,
+    "char_count": 63583918,
+    "size_bytes": 497043874,
     "docs_by_genre": {
       "dictionary": 334383,
       "news": 5825,
       "terminology": 3366,
-      "prose": 19003,
+      "prose": 19038,
       "example_sentence": 821
     },
     "docs_by_license_category": {
       "non_commercial": 190994,
       "permissive": 25312,
       "share_alike": 98483,
-      "unknown": 19003,
+      "unknown": 19038,
       "no_derivatives": 29606
     }
   },
@@ -489,6 +489,32 @@
       "parallel_zh_pct": 0.0,
       "size_bytes": 7250292,
       "file_sha256": "sha256:b5295ab4e8a30e7270c19f50ea4c66c1e3599f35793a42ce1f0305ce87aab3e3"
+    },
+    {
+      "source_id": "taigi_typing",
+      "source_name": "台語文拍字練習 文章 (luke871016/taigi_typing)",
+      "source_url": "https://github.com/luke871016/taigi_typing",
+      "genre": "prose",
+      "license": "unknown",
+      "license_category": "unknown",
+      "license_restrictions": [
+        "unknown"
+      ],
+      "license_notes": "Upstream README: article texts belong to their original authors and may be used only inside that typing-practice page; the page code is CC0. Recorded for provenance; verify with each author before redistribution.",
+      "file_name": "taigi_typing.jsonl",
+      "scripts": {
+        "han": 15,
+        "hanlo": 19,
+        "lo": 1
+      },
+      "doc_count": 35,
+      "char_count": 21159,
+      "parallel_poj_count": 10,
+      "parallel_poj_pct": 28.6,
+      "parallel_zh_count": 0,
+      "parallel_zh_pct": 0.0,
+      "size_bytes": 111515,
+      "file_sha256": "sha256:8e5d9e0b25e8e5c5b82c341a917106e35630196ce7c668e1b401d40529a54ff6"
     },
     {
       "source_id": "tgb_tongsin",
