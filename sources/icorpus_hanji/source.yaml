@@ -1,0 +1,11 @@
+source_id: icorpus_hanji
+source_name: "iCorpus 臺華平行新聞語料庫漢字臺羅版 (薛丞宏)"
+source_url: "https://github.com/Taiwanese-Corpus/icorpus_ka1_han3-ji7"
+license: "CC-BY-4.0"
+license_notes: "Han-character / Tâi-lô edition by 薛丞宏, released under CC BY 4.0. The underlying iCorpus news translation is by 何澤政 for the Academia Sinica iCorpus project (陳孟彰), whose original release is CC BY-NC-SA 4.0 (see source icorpus)."
+copyright_holder: "薛丞宏 (Han/Tâi-lô edition); Academia Sinica IIS, Dr. Meng-Chang Chen (iCorpus)"
+contact: ""
+language: "nan-Hant-TW"
+default_script: "han"
+genre: "news"
+description: "iCorpus news articles 2008-11 to 2014-03 (~64k sentences) with hand-corrected Taiwanese Han characters and numeric-tone Tâi-lô, word-segmented and aligned word for word, plus the original Mandarin. Articles are recovered by matching the original iCorpus (source icorpus). Frozen 2015-11 upstream. `make build-icorpus_hanji` re-fetches in full."

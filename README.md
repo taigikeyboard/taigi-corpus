@@ -46,16 +46,20 @@ upstream and replaces the raw cache; only the latest snapshot is kept.
 | chhoetaigi_itaigi    | 2016+ iTaigi 華台對照典         | CSV    | 19,775      | CC0-1.0             |
 | chhoetaigi_pehoe     | 1956 台灣白話基礎語句           | CSV    | 5,429       | CC-BY-SA-4.0        |
 | ungian_guliau_supin  | 2005 楊允言 NSC 台語文語料庫    | TAR    | 5,207       | unknown             |
+| kipsupin_2009        | 2009 教育部字詞頻調查語料       | TAR    | 4,469       | unknown             |
 | icorpus              | 台華平行新聞語料庫 (中研院)      | JSON   | 3,266       | CC-BY-NC-SA-4.0     |
+| icorpus_hanji        | iCorpus 漢字臺羅版 (薛丞宏)      | TAR    | 2,559       | CC-BY-4.0           |
 | khinhoan_pojbh       | 台灣白話字文獻館 (NTNU)          | JSON   | 2,733       | unknown             |
 | nmtl_dadwt           | 台語文數位典藏資料庫 (NMTL)      | JSON   | 2,167       | unknown             |
 | pts_taigitv          | 公視台語台 新詞辭典             | JSON   | 2,157       | CC-BY-4.0           |
 | chhoetaigi_sitbut    | 1928 台灣植物名彙               | CSV    | 1,722       | CC-BY-SA-4.0        |
 | kanggesu             | 台語工藝詞庫                    | JSON   | 1,209       | CC-BY-NC            |
+| tgb_tongsin          | TGB通訊                         | TAR    | 1,015       | unknown             |
 | sinpak_900leku       | 新北市 900例句                  | JSON   | 821         | MIT                 |
+| taigi_bible_nt       | 新約臺語聖經三譯本              | TAR    | 780         | unknown             |
 | kok4hau7             | 國校仔課本 (國小台語課本)        | TAR    | 367         | unknown             |
 | tsbp                 | 台文通訊BONG報                  | HTML   | 88          | unknown             |
-| **TOTAL**            |                               |        | **352,398** |                     |
+| **TOTAL**            |                               |        | **361,221** |                     |
 
 Genre and license class per source live in
 [`data/normalized/manifest.json`](data/normalized/manifest.json), not this table.
@@ -146,20 +150,26 @@ largest file (`chhoetaigi_taihoa`, ~82 MB) is under GitHub's 100 MB hard limit;
 
 ## Parallel data
 
-Four sources carry alignment data usable for sequence-to-sequence
-training. Each parallel record is stored in a single `Document`; the
+The sources below carry a parallel side. The Granularity column says how
+far each is aligned; only aligned rows suit sequence-to-sequence training. Each parallel record is stored in a single `Document`; the
 primary side lives in `text` and the alignment lives in a typed
 metadata field.
 
 | Source              | Pair                                | Granularity | Pairs   | Metadata field          |
 |---------------------|-------------------------------------|-------------|--------:|-------------------------|
 | icorpus             | Taiwanese (POJ-numerical) ↔ Mandarin | sentence    |  83,544 | `metadata.parallel_zh`  |
+| icorpus_hanji       | Han (word-segmented) ↔ Tâi-lô-numerical, + Mandarin | **word** | 64,110 | `metadata.parallel_poj`, `metadata.parallel_zh` |
+| kipsupin_2009       | Han / Han-Lo ↔ POJ-numerical        | paragraph   |  59,558 | `metadata.parallel_poj` |
 | nmtl_dadwt          | Han-Lo ↔ POJ-numerical              | paragraph   |  64,281 | `metadata.parallel_poj` |
 | khinhoan_pojbh      | Han-Lo ↔ POJ-diacritic              | paragraph   |  37,984 | `metadata.parallel_poj` |
+| taigi_bible_nt      | Han-Lo ↔ POJ-diacritic              | verse       |  23,822 | `metadata.parallel_poj` |
+| tgb_tongsin         | Han-Lo ↔ Mandarin (not aligned)     | article     |   1,015 | `metadata.parallel_zh`  |
 | ungian_guliau_supin | Han-Lo + POJ-numerical (not aligned) | —           |     —   | (separate `subset:HL` / `subset:POJ` docs) |
 
 Within a parallel record, line N of `text` corresponds to line N of
-the parallel field. khinhoan_pojbh additionally tags each document
+the parallel field (tgb_tongsin excepted). In icorpus_hanji, token N of a
+`text` line is additionally the Han form of token N of its `parallel_poj` line.
+khinhoan_pojbh additionally tags each document
 `parallel-status:aligned` or `parallel-status:mismatched`; the pair
 count above counts only `aligned` records. See each source's
 `README.md` for extraction code.

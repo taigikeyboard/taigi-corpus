@@ -1,0 +1,11 @@
+source_id: tgb_tongsin
+source_name: "TGB通訊 (台文部落格 2014 crawl, 薛丞宏整理)"
+source_url: "https://github.com/sih4sing5hong5/huan1-ik8_gian2-kiu3"
+license: "unknown"
+license_notes: "Crawled from the TGB通訊 blog in 2014 for 薛丞宏's translation research; the upstream repo has no LICENSE file. Copyright stays with the bulletin and each article's author. Verify authorization before redistribution or commercial use."
+copyright_holder: "TGB通訊 / each article's author"
+contact: ""
+language: "nan-Hant-TW"
+default_script: "hanlo"
+genre: "prose"
+description: "1,015 articles from the TGB通訊 bulletin (essays, commentary, translations, issue editorials; around 2012-2014) in Han-Lo Taiwanese with POJ words inline, each with the Mandarin version it was published beside. The Mandarin is not line-aligned. Frozen 2018-07 upstream. `make build-tgb_tongsin` streams the large upstream tarball."

@@ -1,0 +1,11 @@
+source_id: taigi_bible_nt
+source_name: "新約臺語聖經三譯本 (巴克禮 1916 / 高陳 1975 / 現代台語譯本 2008)"
+source_url: "https://github.com/Taiwanese-Corpus/Pakhelke-1916_KoTan-1975_hiantaiekpun-2008_taiwanese-bible"
+license: "unknown"
+license_notes: "Upstream GitHub repo has no LICENSE file. The 1916 Barclay New Testament is out of copyright; the 1975 高陳 (Kho-Tân) translation and the 2008 現代台語譯本 remain under their publishers' copyright (Bible Society in Taiwan and partner churches). Verify authorization before redistribution or commercial use."
+copyright_holder: "巴克禮 1916 (public domain); 高陳譯本 1975 and 現代台語譯本 2008: their publishers"
+contact: ""
+language: "nan-Hant-TW"
+default_script: "hanlo"
+genre: "prose"
+description: "The Taiwanese New Testament in three translations (1916 巴克禮, 1975 高陳, 2008 現代台語譯本), 260 chapters each, ~23.8k verse pairs of Han-Lo text and diacritic POJ. Religious register; older translations use period vocabulary. Frozen 2016-07 upstream (楊允言's collection). `make build-taigi_bible_nt` re-fetches in full."

@@ -1,22 +1,22 @@
 {
   "manifest_schema_version": 1,
   "totals": {
-    "source_count": 18,
-    "doc_count": 352398,
-    "char_count": 52603273,
-    "size_bytes": 435578953,
+    "source_count": 22,
+    "doc_count": 361221,
+    "char_count": 59410290,
+    "size_bytes": 485914423,
     "docs_by_genre": {
       "dictionary": 334383,
-      "news": 3266,
+      "news": 5825,
       "terminology": 3366,
-      "prose": 10562,
+      "prose": 16826,
       "example_sentence": 821
     },
     "docs_by_license_category": {
       "non_commercial": 190994,
-      "permissive": 22753,
+      "permissive": 25312,
       "share_alike": 98483,
-      "unknown": 10562,
+      "unknown": 16826,
       "no_derivatives": 29606
     }
   },
@@ -249,6 +249,30 @@
       "file_sha256": "sha256:58c9486bdbfed5821baaf13f77a8d2d3cebdf196c8976cbce67f9d148af5d230"
     },
     {
+      "source_id": "icorpus_hanji",
+      "source_name": "iCorpus 臺華平行新聞語料庫漢字臺羅版 (薛丞宏)",
+      "source_url": "https://github.com/Taiwanese-Corpus/icorpus_ka1_han3-ji7",
+      "genre": "news",
+      "license": "CC-BY-4.0",
+      "license_category": "permissive",
+      "license_restrictions": [
+        "attribution"
+      ],
+      "license_notes": "Han-character / Tâi-lô edition by 薛丞宏, released under CC BY 4.0. The underlying iCorpus news translation is by 何澤政 for the Academia Sinica iCorpus project (陳孟彰), whose original release is CC BY-NC-SA 4.0 (see source icorpus).",
+      "file_name": "icorpus_hanji.jsonl",
+      "scripts": {
+        "han": 2559
+      },
+      "doc_count": 2559,
+      "char_count": 1133150,
+      "parallel_poj_count": 2559,
+      "parallel_poj_pct": 100.0,
+      "parallel_zh_count": 2559,
+      "parallel_zh_pct": 100.0,
+      "size_bytes": 12561611,
+      "file_sha256": "sha256:6b377b71b8a3f05ca94e4cfba31317f0f037f0274d4ee84d26af373f3994058c"
+    },
+    {
       "source_id": "kanggesu",
       "source_name": "台語工藝詞庫 (國立臺灣工藝研究發展中心)",
       "source_url": "https://kanggesu.ntcri.gov.tw/NTCRI_TaigiWebSite",
@@ -296,6 +320,30 @@
       "parallel_zh_pct": 0.0,
       "size_bytes": 25864162,
       "file_sha256": "sha256:e3f0197c6d28e80620d7833652635389ae1e2ba99cc617ea189ba6f1e771b960"
+    },
+    {
+      "source_id": "kipsupin_2009",
+      "source_name": "教育部臺灣閩南語字詞頻調查工作語料 (2009, 楊允言)",
+      "source_url": "https://github.com/Taiwanese-Corpus/Ungian_2009_KIPsupin",
+      "genre": "prose",
+      "license": "unknown",
+      "license_category": "unknown",
+      "license_restrictions": [
+        "unknown"
+      ],
+      "license_notes": "Upstream GitHub repo (Taiwanese-Corpus/Ungian_2009_KIPsupin) has no LICENSE file. Texts were collected for the Ministry of Education character and word frequency survey (楊允言, 2009); copyright stays with the original authors and publishers. Verify per-work authorization before any commercial or training use.",
+      "file_name": "kipsupin_2009.jsonl",
+      "scripts": {
+        "hanlo": 4469
+      },
+      "doc_count": 4469,
+      "char_count": 2997141,
+      "parallel_poj_count": 4469,
+      "parallel_poj_pct": 100.0,
+      "parallel_zh_count": 0,
+      "parallel_zh_pct": 0.0,
+      "size_bytes": 25050681,
+      "file_sha256": "sha256:72814e3eab5d6f65bdf0fe97355ac65b1888320551a070ca696f7c8625dd10b3"
     },
     {
       "source_id": "kok4hau7",
@@ -417,6 +465,54 @@
       "parallel_zh_pct": 0.0,
       "size_bytes": 1057964,
       "file_sha256": "sha256:5a73ddc108f9e72a57c4e86084b30cab594b6b13071bf702a7a2eec0078fb163"
+    },
+    {
+      "source_id": "taigi_bible_nt",
+      "source_name": "新約臺語聖經三譯本 (巴克禮 1916 / 高陳 1975 / 現代台語譯本 2008)",
+      "source_url": "https://github.com/Taiwanese-Corpus/Pakhelke-1916_KoTan-1975_hiantaiekpun-2008_taiwanese-bible",
+      "genre": "prose",
+      "license": "unknown",
+      "license_category": "unknown",
+      "license_restrictions": [
+        "unknown"
+      ],
+      "license_notes": "Upstream GitHub repo has no LICENSE file. The 1916 Barclay New Testament is out of copyright; the 1975 高陳 (Kho-Tân) translation and the 2008 現代台語譯本 remain under their publishers' copyright (Bible Society in Taiwan and partner churches). Verify authorization before redistribution or commercial use.",
+      "file_name": "taigi_bible_nt.jsonl",
+      "scripts": {
+        "hanlo": 780
+      },
+      "doc_count": 780,
+      "char_count": 1162835,
+      "parallel_poj_count": 780,
+      "parallel_poj_pct": 100.0,
+      "parallel_zh_count": 0,
+      "parallel_zh_pct": 0.0,
+      "size_bytes": 7250292,
+      "file_sha256": "sha256:b5295ab4e8a30e7270c19f50ea4c66c1e3599f35793a42ce1f0305ce87aab3e3"
+    },
+    {
+      "source_id": "tgb_tongsin",
+      "source_name": "TGB通訊 (台文部落格 2014 crawl, 薛丞宏整理)",
+      "source_url": "https://github.com/sih4sing5hong5/huan1-ik8_gian2-kiu3",
+      "genre": "prose",
+      "license": "unknown",
+      "license_category": "unknown",
+      "license_restrictions": [
+        "unknown"
+      ],
+      "license_notes": "Crawled from the TGB通訊 blog in 2014 for 薛丞宏's translation research; the upstream repo has no LICENSE file. Copyright stays with the bulletin and each article's author. Verify authorization before redistribution or commercial use.",
+      "file_name": "tgb_tongsin.jsonl",
+      "scripts": {
+        "hanlo": 1015
+      },
+      "doc_count": 1015,
+      "char_count": 1513891,
+      "parallel_poj_count": 0,
+      "parallel_poj_pct": 0.0,
+      "parallel_zh_count": 1015,
+      "parallel_zh_pct": 100.0,
+      "size_bytes": 5472886,
+      "file_sha256": "sha256:c375c8d8889157adfa1d1ea711e0a3dee73b8eb0e99881e8981a95047623a29d"
     },
     {
       "source_id": "tsbp",
