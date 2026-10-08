@@ -17,10 +17,14 @@ taigi-corpus/
 │   ├── schema.py          # Pydantic models: Document, SourceMetadata, ...
 │   ├── normalize.py       # Unicode NFC, whitespace, newline collapsing
 │   ├── pipeline.py        # Source loader + JSONL writer
-│   ├── cli.py             # `corpus list | build | stats`
-│   └── parsers/           # html, pdf, csv, excel, text
+│   ├── manifest.py        # data/normalized/manifest.json
+│   ├── export.py          # filtered training JSONL
+│   ├── cli.py             # `corpus list | build | stats | manifest | export`
+│   ├── parsers/           # html, pdf, csv, excel, text
+│   ├── aggregators/       # multi-source ingesters (chhoetaigi `make_ingester`)
+│   └── scrapers/          # shared fetch helpers
 ├── sources/               # One folder per data source
-│   └── tsbp/              # First source: 台文通訊BONG報
+│   └── tsbp/              # Example source: 台文通訊BONG報
 │       ├── source.yaml    # Source-level metadata (license, URL, ...)
 │       ├── ingest.py      # Yields normalized Document records
 │       ├── raw/           # Cached raw downloads (gitignored)
@@ -92,7 +96,7 @@ taigi-corpus/
 
 ## Document Schema
 
-Every record in `data/normalized/{source}.jsonl` and `data/corpus/corpus.jsonl`
+Every record in `data/normalized/{source}.jsonl` and `data/export/corpus.jsonl`
 follows this shape (see `corpus/schema.py` for the authoritative definition):
 
 ```json
@@ -142,7 +146,7 @@ you want to rebuild. `build-<id>` always reaches upstream:
 - `pts_taigitv` / `kanggesu` re-scrape the upstream site (full re-fetch).
 - The scrape file in `sources/<id>/raw/` is replaced; only the latest is kept.
 
-Underlying CLI (`uv run corpus list | build <id> | stats <id>|--all`)
+Underlying CLI (`uv run corpus list | build <id> | stats <id>|--all | manifest | export`)
 is still available if needed.
 
 ## Adding a New Source
