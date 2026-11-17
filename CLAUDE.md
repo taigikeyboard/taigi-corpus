@@ -27,7 +27,7 @@ taigi-corpus/
 │   └── tsbp/              # Example source: 台文通訊BONG報
 │       ├── source.yaml    # Source-level metadata (license, URL, ...)
 │       ├── ingest.py      # Yields normalized Document records
-│       ├── raw/           # Cached raw downloads (gitignored)
+│       ├── raw/           # Cached raw downloads (tracked)
 │       └── README.md
 └── data/                  # Build outputs
     └── normalized/        # data/normalized/{source_id}.jsonl
